@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes>
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- 配置该包的拦截器 -->
+        <interceptors>
+            <!-- 自定义拦截器 -->
+            <interceptor name="systeminterceptor" class="com.unytech.project.web.interceptor.DefaultSystemInterceptor" />
+            <interceptor name="operaterecordinterceptor" class="com.unytech.project.web.interceptor.OperateRecordInterceptor" />
+            <interceptor name="systemexceptioninterceptor" class="com.unytech.project.web.interceptor.SystemExceptionInterceptor" />
+
+            <interceptor-stack name="DefaultSystemStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="timer"/>
+
+                <!--
+                    <interceptor-ref name="execAndWait"/>
+                    <interceptor-ref name="completeStack"/>
+                    <interceptor-ref name="token"/>
+                     -->
+                <interceptor-ref name="systeminterceptor" />
+                <interceptor-ref name="operaterecordinterceptor" />
+                <interceptor-ref name="systemexceptioninterceptor" />
+            </interceptor-stack>
+        </interceptors>
+        <!--该 包下面的所有Action都经过此拦截器，貌似不能定义拦截或者不拦截某个具体的方法 -->
+        <default-interceptor-ref name="DefaultSystemStack" />
+
+        <!--默认Action-->
+        <default-action-ref name="login" />
+
+        <global-results>
+            <result name="wait">/WEB-INF/content/common/wait.jsp</result>
+            <result name="invalid.token">/WEB-INF/content/common/tokeninvalid.jsp</result>
+            <!-- <result name="struts.token">/content/common/tokeninvalid.jsp</result> -->
+            <result name="login">/login.jsp</result>
+            <result name="message">/WEB-INF/content/common/message.jsp</result>
+            <result name="error">/WEB-INF/content/common/error.jsp</result>
+            <result name="initsystem">/WEB-INF/content/system/initsystem.jsp</result>
+
+        </global-results>
+
+        <!--
+          <global-exception-mappings>
+              <exception-mapping exception="java.lang.Exception" result="error"/>
+          </global-exception-mappings>
+          -->
+
+        <action name="login">
+            <!-- 重定向到另一命名空间的Action -->
+            <result name="redirectAction">
+                <param name="actionName">login_userLogin</param>
+                <param name="namespace">/security/security</param>
+            </result>
+        </action>
+    </package>
+
+    <package name="system" namespace="/system" extends="default">
+        <action name="system_*" method="{1}" class="com.unytech.project.web.action.system.SystemAction">
+            <result name="initsystem">/WEB-INF/content/system/initsystem.jsp</result>
+
+        </action>
+
+        <action name="mainmenu_*" method="{1}" class="com.unytech.project.web.action.system.MainMenuAction">
+            <result name="homepage">/WEB-INF/content/business/homepage.jsp</result>
+            <result name="baseinfo">/WEB-INF/content/business/baseinfo.jsp</result>
+
+
+        </action>
+
+        <action name="item_*" method="{1}" class="com.unytech.project.web.action.system.ItemListAction">
+
+            <!-- <result name="indexpage">/WEB-INF/content/index.jsp</result> -->
+
+            <!--
+               <result name="example" type="json">
+                   <param name="noCache">true</param>
+                   <param name="contentType">text/html</param>
+               </result>
+                -->
+        </action>
+
+        <action name="user_*" method="{1}" class="com.unytech.project.web.action.system.UserAction">
+            <!--
+               <interceptor-ref name="token" />
+               <result name="invalid.token">xxx.jsp</result>
+               页面表单里写这句代码：<s:token></s:token>
+               -->
+            <result name="userlist">/WEB-INF/content/security/usermanage/user_list.jsp</result>
+            <result name="useradd">/WEB-INF/content/security/usermanage/user_add.jsp</result>
+            <result name="updateuserpwd">/WEB-INF/content/security/userinfor/user_resetpwd.jsp</result>
+        </action>
+    </package>
+
+    <package name="security" namespace="/security" extends="default">
+        <action name="login_*" method="{1}" class="com.unytech.project.web.action.security.LoginAction">
+
+            <!-- <result name="loginok">/WEB-INF/content/index.jsp</result> -->
+            <result name="loginok">/WEB-INF/content/index.jsp</result>
+            <!--
+               <result name="loginok">
+                   <param name="actionName">mainmenu_homePage</param>
+                   <param name="namespace">/system/system</param>
+               </result>
+                -->
+        </action>
+
+    </package>
+
+    <package name="baseinfo" namespace="/business/baseinfo" extends="default">
+        <action name="countyinfo_*" method="{1}" class="com.unytech.project.web.action.business.baseinfo.CountyInfoAction">
+            <result name="details">/WEB-INF/content/business/baseinfo/countyinfo_view.jsp</result>
+            <result name="input">/WEB-INF/content/business/baseinfo/countyinfo_input.jsp</result>
+        </action>
+
+    </package>
+    <package name="monitor" namespace="/business/monitor" extends="default">
+        <action name="adinfob_*" method="{1}" class="com.unytech.project.web.action.business.baseinfo.AdinfobxzAction">
+            <result name="list">/WEB-INF/content/business/baseinfo/adinfob_xz_list.jsp</result>
+            <result name="input">/WEB-INF/content/business/baseinfo/adinfob_xz_input.jsp</result>
+
+
+        </action>
+
+    </package>
+    <!--
+      <controller>
+         <set-property property="processorClass" value="org.springframework.web.struts.DelegatingRequestProcessor"/>
+      </controller>
+       -->
+</routes>

@@ -126,23 +126,37 @@
                 ]
             });
              */
-            art.dialog({
+            var dialog = art.dialog({
                 id: 'login_dialog',
                 title: '登录Birdway',
-                content: '帐号：<input id="username" type="text" value="guest" /><br />'
-                        + '密码：<input id="password" type="password" />',
+                content: '帐号：<input id="loginname" type="text" /><br />'
+                        + '密码：<input id="password" type="password" value="" />',
                 lock: true,
                 fixed: true,
                 button: [
                     {
                         value: '登录',
                         callback: function () {
-                            //$.post();
-                            //this.content('登录成功').time(100);
+                            var un = document.getElementById('loginname');
                             var pw = document.getElementById('password');
-                            pw.select();
-                            pw.focus();
-                            this.shake();
+                            $.post("/user_login", { username: un, password: pw },
+                                function(data) {
+                                    if (data == 'OK') {
+                                        dialog.icon = 'succeed';
+                                        dialog.content('登录成功').time(5);
+                                    } else {
+                                        un.style.borderColor = 'red';
+                                        pw.style.borderColor = 'red';
+                                        dialog.shake();
+                                        return false;
+                                    }
+                                });
+
+                            //this.content('登录成功').time(100);
+
+//                            pw.select();
+//                            pw.focus();
+//                            this.shake();
                             return false;
                         },
                         focus: true

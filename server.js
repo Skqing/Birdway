@@ -4,20 +4,13 @@
  * 加载配置文件、定义全局变量，初始化控制器，自定义错误处理
  */
 
-
-
-//==================定义全局变量==================
-global.BASE_DIR = __dirname;
-global.server   = global.BASE_DIR + 'server';
-global.CON      = global.server + 'ctrl';
-global.CORE     = global.server + 'core';
-global.MODEL    = global.server + 'model';
-global.CONF     = global.BASE_DIR + 'config';
-global.LOG      = global.BASE_DIR + 'log';
-global.PUBLIC   = global.BASE_DIR + '/public';
-global.VIEW     = global.BASE_DIR + 'view';
-
-
+//==================定义全局静态变量==================
+global.BASEDIR = __dirname;
+global.STATIC = {
+    PUBLIC : global.BASEDIR + '/public',
+    VIEW :  global.BASEDIR + 'view',
+    LOG : global.BASEDIR + 'log'
+}
 
 //==================模块引入==================
 global.Module = {
@@ -26,45 +19,55 @@ global.Module = {
     fs : require('fs'),
     path : require('path'),
     url : require('url'),
-    sys : require('util'),
-    gzippo : require('gzippo')  //压缩静态文件
+    util : require('util'),
+    qs : require('querystring'),
+    exec : require('child_process').exec
+    //gzippo : require('gzippo')  //压缩静态文件
 //    parseCookie : require('connect').utils.parseCookie,
 //    MemoryStore : require('connect/middleware/session/memory')
 }
 
+global.Middle = require('./middle');
 
-var express = require('express');
-var routes = require('./app/routes'),
-    sio = require('socket.io'),
-    gzippo = require('gzippo'),
+//上联：十行代码九个警告八个错误，竟然敢说七日精通六天学会，五湖四海也少见如此三心二意之项目，经理简直一等下流；
+//下联：一个项目两个人作三个功能，要求简单四天做完五天运营，六人七上八下拿出九个方案仍不满意，客户就是十足傻逼；
+//
+//横批：民工苦逼
+
+//==================加载配置文件==================
+//var read_config_file = require('yaml-config');
+//var mongodbconfig = module.exports = read_config_file.readConfig('config/config.yaml');
+
+global.dbconfig = require('./config').dbconfig;
+global.globalconfig = require('./config').globalconfig;
+
+//==================创建服务器==================
+var express = require('express'),
+//gzippo = require('gzippo'),
 //    sios  = require('socket.io-sessions'),
     MongoStore = require('connect-mongo')(express);
 //    RedisStore = require('connect-redis')(express);
 //    parseCookie = require('connect').utils.parseCookie,
 //    MemoryStore = require('connect/lib/middleware/session/memory');
 
-//==================加载配置文件==================
-//var read_config_file = require('yaml-config');
-//var mongodbconfig = module.exports = read_config_file.readConfig('config/config.yaml');
-/**
- * 用户SESSION
- *
- */
-//var usersWS = {},
-//    storeMemory = new MemoryStore({reapInterval: 60000 * 10});//session store
-
-
-
 var server = module.exports = express.createServer();
+require('./config').boot(server);  //初始化服务器
 
 var sessionStore = new MongoStore({url:'mongodb://localhost/birdway', collection:'sessions'});
 
 // Configuration
 server.configure(function(){  //中间件的顺序是不能随意改变的
-  server.set('views', __dirname + '/views');
-  server.set('view engine', 'jade');
+//  server.set('views', __dirname + '/views');
+//  server.set('view engine', 'jade');
 
-  server.use(express.bodyParser());  //解析表单数据的中间件
+    var viewsRoot = global.Module.path.join(__dirname, 'views');
+    server.set('view engine', 'html');
+    server.set('views', viewsRoot);
+    server.register('.html', require('ejs'));
+
+    //解析表单数据的中间件
+  server.use(express.bodyParser());  //上传到默认的临时目录/tmp
+//  server.use(express.bodyParser({uploadDir:'./uploads'}));//上传到指定的临时目录/uploads
   server.use(express.methodOverride());
   server.use(express.cookieParser());
 
@@ -74,49 +77,57 @@ server.configure(function(){  //中间件的顺序是不能随意改变的
       secret: 'sid',
       store: sessionStore }));
 //  server.use(express.session({secret: 'secret', key: 'express.sid'}));
-  server.use(server.router);
-//  server.use(express.static(__dirname + '/public'));
-  server.use(express.static(global.PUBLIC));
+//  server.use(server.router);  //我们使用自己的router
+//  var oneYear = 31557600000;
+  var maxAge = 3600000 * 24 * 30;
+  server.use(express.static(global.STATIC.PUBLIC, { maxAge: maxAge }));
   server.use(express.favicon());
 });
 
 server.configure('development', function(){
+  server.use(express.logger());
   server.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
 server.configure('production', function(){
+  server.use(express.logger());
   server.use(express.errorHandler());
-  server.use(gzippo.staticGzip(__dirname + '/public'));  //压缩静态文件
-  //server.enable('view cache')  // view cache is enabled by default in production mode
+//  server.use(gzippo.staticGzip(global.PUBLIC));  //压缩静态文件
+//  server.use(gzippo.compress());
+//  server.enable('view cache')  // view cache is enabled by default in production mode
 });
 
-// Routes
 
-server.get('/', routes.index);
+//配置服务参数
+require('./config').boot(server);
+
+
+
+// Routes
+require('./router').boot(server);
+//server.get('/', routes.index);
+
+//server.get('/pro', routes.properties);
+
 //server.get('/', function(req, res){
-//    req.redirect("static/index.html");
+//    req.redirect("./static/index.html");
 //})
 
 //server.get('*', function(){
 //    console.log('get url!');
 //});
 
-server.error(function(err, req, res, next){
-    if (err instanceof NotFound) {
-//        res.render('404.jade');
-        routes.notfound;
-    } else {
-        next(err);
-    }
-});
+
+//错误处理
+//require('./error').boot(server);
+
 
 
 //=================配置socket.io=========================
 /**
  * 配置socket.io
- *
  */
-var socket = sio.listen(server);
+var socket = global.Module.sio.listen(server);
 //设置session
 socket.set('authorization', function(handshakeData, callback){
     // 通过客户端的cookie字符串来获取其session数据
@@ -149,3 +160,5 @@ socket.set('authorization', function(handshakeData, callback){
 server.listen(8088, function(){
   console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);
 });
+
+module.exports = server;
