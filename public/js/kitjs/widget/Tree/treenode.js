@@ -1,3 +1,0 @@
-$kit.ui.TreeNode = function() {
-	
-}

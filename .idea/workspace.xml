@@ -1,92 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991b9217-7f76-42c4-8448-5cd8b6d5192e" name="Default" comment="暂时解决模块之间的引用问题，所有的index.js文件或许有待优化">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loginbutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Audio/audiojs.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/DatePicker/datepicker.jquery.js.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/mail.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/LinkedHashMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/TreeDict.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/anim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/ieFix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/kit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/localStorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/multithread.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/suger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Audio/audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Audio/audiojs.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/CodeExample/autowired.codeExample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/CodeExample/codeExample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/DatePicker/datepicker-n-months.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/DatePicker/datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Dialog/hoverTips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Dialog/yesOrNo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Editor/editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Editor/simpleeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/autowired.textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/combobox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/suggestselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Form/timeinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Gallery/gallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/LightBox/lightbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Log/log.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Log/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Mask/mask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Menu/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/SemitransparentLoading/semitransparentloading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/SlideBar/slidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/StarLevel/starlevel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/TabPanel/tabpanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/TagInput/tagInput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/TextLoading/textloading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Tree/treenode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Upload/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Validator/autowired.validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Validator/validator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kitjs/widget/Waterfall/waterfall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/login_bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/system/site_action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/system/system_action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/mail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/login.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/singupok.html" />
-      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\src\action\system\site.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\src\service\base.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\src\service\service.js" afterPath="" />
+    <list default="true" id="991b9217-7f76-42c4-8448-5cd8b6d5192e" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\LinkedHashMap.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\TreeDict.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\anim.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\array.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\date.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\dom.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\event.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\ieFix.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\io.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\json.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\kit.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\localStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\math.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\multithread.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\require.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\selection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\string.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\suger.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\template.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\url.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Audio\audio.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Audio\audiojs.as" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Audio\audiojs.swf" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\CodeExample\autowired.codeExample.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\CodeExample\codeExample.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\DatePicker\datepicker-n-months.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\DatePicker\datepicker.jquery.js.bak" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\DatePicker\datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Dialog\dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Dialog\hoverTips.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Dialog\yesOrNo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Editor\editor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Editor\simpleeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\autowired.textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\combobox.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\form.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\list.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\suggestselect.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Form\timeinput.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Gallery\gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\LightBox\lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Log\log.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Log\log.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Mask\mask.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Menu\menu.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\SemitransparentLoading\semitransparentloading.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\SlideBar\slidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\StarLevel\starlevel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\TabPanel\tabpanel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\TagInput\tagInput.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\TextLoading\textloading.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Tree\treenode.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Upload\upload.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Validator\autowired.validator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Validator\validator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway.org\public\js\kitjs\widget\Waterfall\waterfall.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/globalconfig.properties" afterPath="$PROJECT_DIR$/config/globalconfig.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/middle.js" afterPath="$PROJECT_DIR$/middle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router.js" afterPath="$PROJECT_DIR$/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/security/user_action.js" afterPath="$PROJECT_DIR$/src/action/security/user_action.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/index.js" afterPath="$PROJECT_DIR$/src/models/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/fileparser.js" afterPath="$PROJECT_DIR$/src/utils/fileparser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/index.js" afterPath="$PROJECT_DIR$/src/utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
     </list>
     <ignored path="birdway.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -401,6 +376,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birdway.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birdway.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -491,7 +484,11 @@
       <created>1340184254037</created>
       <updated>1340184254037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基本完成用户注册登录功能">
+      <created>1341834443527</created>
+      <updated>1341834443527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -518,6 +515,7 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -532,7 +530,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -575,7 +572,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="暂时解决模块之间的引用问题，所有的index.js文件或许有待优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成用户注册登录功能" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -589,6 +586,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="暂时解决模块之间的引用问题，所有的index.js文件或许有待优化" />
+    <MESSAGE value="基本完成用户注册登录功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
