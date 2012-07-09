@@ -6,26 +6,28 @@
  * 读取配置文件对服务器进行配置
  */
 
+var myutils = require('./src/utils');
+
 exports.boot = function(server){
     bootConfigServer(server);
 }
-exports.dbconfig = function(){
+exports.dbconfig = (function(){
     var realpath =  __dirname + '/config/' + global.Module.url.parse('mongodb.properties').pathname;
-//    console.log('global.Middle.utils:' + global.Middle.utils);
-//    console.log('global.Middle.template:'+typeof global.Middle.template);
-//    console.log('require.utils:'+typeof require('./src/utils'));
+    return myutils.fileparser.parseproperties(realpath, null);
+})();
 
-    return global.Middle.utils.fileparser.parseproperties(realpath, null);
-}
-exports.globalconfig = function(){
+exports.globalconfig = (function(){
     var realpath =  __dirname + '/config/' + global.Module.url.parse('globalconfig.properties').pathname;
-    return global.Middle.utils.parseproperties(realpath, null);
-}
+    return myutils.fileparser.parseproperties(realpath, null);
+})();
 
-
+exports.mailconfig = (function(){
+    var realpath =  __dirname + '/config/' + global.Module.url.parse('mail.properties').pathname;
+    return myutils.fileparser.parseproperties(realpath, null);
+})();
 function bootConfigServer(server) {
 
 
-
 }
 
+//module.exports = {xxx:function(){}}

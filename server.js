@@ -8,8 +8,8 @@
 global.BASEDIR = __dirname;
 global.STATIC = {
     PUBLIC : global.BASEDIR + '/public',
-    VIEW :  global.BASEDIR + 'view',
-    LOG : global.BASEDIR + 'log'
+    VIEW :  global.BASEDIR + '/view',
+    LOG : global.BASEDIR + '/log'
 }
 
 //==================模块引入==================
@@ -27,20 +27,6 @@ global.Module = {
 //    MemoryStore : require('connect/middleware/session/memory')
 }
 
-global.Middle = require('./middle');
-
-//上联：十行代码九个警告八个错误，竟然敢说七日精通六天学会，五湖四海也少见如此三心二意之项目，经理简直一等下流；
-//下联：一个项目两个人作三个功能，要求简单四天做完五天运营，六人七上八下拿出九个方案仍不满意，客户就是十足傻逼；
-//
-//横批：民工苦逼
-
-//==================加载配置文件==================
-//var read_config_file = require('yaml-config');
-//var mongodbconfig = module.exports = read_config_file.readConfig('config/config.yaml');
-
-global.dbconfig = require('./config').dbconfig;
-global.globalconfig = require('./config').globalconfig;
-
 //==================创建服务器==================
 var express = require('express'),
 //gzippo = require('gzippo'),
@@ -50,26 +36,44 @@ var express = require('express'),
 //    parseCookie = require('connect').utils.parseCookie,
 //    MemoryStore = require('connect/lib/middleware/session/memory');
 
-var server = module.exports = express.createServer();
-require('./config').boot(server);  //初始化服务器
 
-var sessionStore = new MongoStore({url:'mongodb://localhost/birdway', collection:'sessions'});
+var server = module.exports = express.createServer();
+//配置服务参数
+require('./config').boot(server);
+
+//==================加载配置文件==================
+//var read_config_file = require('yaml-config');
+//var mongodbconfig = module.exports = read_config_file.readConfig('config/config.yaml');
+
+global.dbconfig = require('./config').dbconfig;
+global.globalconfig = require('./config').globalconfig;
+global.mailconfig = require('./config').mailconfig;
+//==================the end==================
+
+//模块中间路由
+global.Middle = require('./middle');
+
+
+var sessionStore = new MongoStore({url:global.dbconfig.url, collection:global.dbconfig.collection});
 
 // Configuration
 server.configure(function(){  //中间件的顺序是不能随意改变的
 //  server.set('views', __dirname + '/views');
 //  server.set('view engine', 'jade');
-
+    //设置模版引擎
     var viewsRoot = global.Module.path.join(__dirname, 'views');
     server.set('view engine', 'html');
     server.set('views', viewsRoot);
     server.register('.html', require('ejs'));
 
+    server.set('view options', {layout: false});
+//  server.set('view cache', true); //上线开启模板缓存
+
     //解析表单数据的中间件
-  server.use(express.bodyParser());  //上传到默认的临时目录/tmp
+    server.use(express.bodyParser());  //上传到默认的临时目录/tmp
 //  server.use(express.bodyParser({uploadDir:'./uploads'}));//上传到指定的临时目录/uploads
-  server.use(express.methodOverride());
-  server.use(express.cookieParser());
+    server.use(express.methodOverride());
+    server.use(express.cookieParser());
 
 //  server.use(express.session({ secret: 'your secret here', store: new RedisStore }));
 //  server.use(express.session({ secret: 'your secret here', store: storeMemory }));
@@ -96,11 +100,6 @@ server.configure('production', function(){
 //  server.use(gzippo.compress());
 //  server.enable('view cache')  // view cache is enabled by default in production mode
 });
-
-
-//配置服务参数
-require('./config').boot(server);
-
 
 
 // Routes
@@ -160,5 +159,3 @@ socket.set('authorization', function(handshakeData, callback){
 server.listen(8088, function(){
   console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);
 });
-
-module.exports = server;

@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/birdway', function (err) {
+mongoose.connect(global.dbconfig.url, function (err) {
   if (err) {
-    console.error('connect to %s error: ', 'mongodb://localhost/birdway', err.message);
+    console.error('connect to %s error: ', global.dbconfig.url, err.message);
     process.exit(1);
   }
 });

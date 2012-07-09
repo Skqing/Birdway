@@ -1,0 +1,163 @@
+@charset "utf-8";
+/**
+ * Created with JetBrains WebStorm.
+ * User: 王文龙
+ * Email: longxinanlan@msn.cn
+ * Date: 12-7-3 下午4:29
+ * Description
+ */
+
+
+ol {
+    list-style: none;
+    padding-left: 40px;
+}
+
+li {
+	line-height: 30px;
+}
+li input {
+	width: 295px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccd1d5;
+	display: block;
+	border-radius: 5px;
+}
+input.btn-submit {
+    margin-left:40px;
+    margin-top:25px;
+	display: block;
+	overflow: hidden;
+	width: 88px;
+	height: 31px;
+	line-height: 31px;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+	background: url(/images/loginbutton.png) no-repeat 0 0;
+}
+
+span.formtitle{
+    width: 380px;
+    height: 30px;
+    display: block;
+    color: #818181;
+    font-size: 14px;
+    border: 2px solid #d7d7d7;
+}
+
+.notespan{color: red;}
+
+.errortip{color: red;display: none;}
+
+.vlab{display: block;}
+
+.vc{
+    width: 100px;
+    display: inline;
+}
+.vcimg{
+    float: right;
+    height: 38px;
+    width: 80px;
+    display: inline;
+    margin-right: 45px;
+}
+
+#maincontext{
+    width: 870px;
+    margin: 0px auto;
+}
+#contexttitle{
+    width: 820px;
+    height: 100px;
+}
+
+.backError {
+    height: 30px;
+    color: #BF1623;
+    line-height:30px;
+    padding-left: 40px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+/**注册样式*/
+#regist-main {
+    width: 382px;
+    height: 610px;
+    float: left;
+    font-size: 12px;
+}
+#registForm {
+    height: 460px;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 0 10px #d7d7d7;
+    background-color: #fff;
+    width: 382px;
+    color: #818181;
+}
+#regist-main a {
+    text-decoration: none;
+}
+#regist-main a:hover {
+    text-decoration: underline;
+}
+#registForm input.btn-submit:hover {
+	background-position: 0 -31px;
+}
+#registForm input.btn-submit:active {
+	background-position: 0 -62px;
+}
+
+/**登录样式*/
+#login-main {
+    width: 382px;
+    height: 610px;
+    margin-left: 100px;
+    float: left;
+    font-size: 12px;
+}
+#loginForm {
+    height: 460px;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 0 10px #d7d7d7;
+    background-color: #fff;
+    width: 382px;
+    color: #818181;
+}
+#login-main a {
+    text-decoration: none;
+}
+#login-main a:hover {
+    text-decoration: underline;
+}
+#loginForm input.btn-submit:hover {
+    background-position: 0 -31px;
+}
+#loginForm input.btn-submit:active {
+    background-position: 0 -62px;
+}
+
+
+.field-validation-error {
+	color: #BF1623;
+}
+.kitjs-validator {
+	color: #BF1623;
+    display: none;
+    margin-left: 1em;
+}
+.validator-show {
+    display: inline;
+    -webkit-animation: validator-show-anim 300ms 1 ease-in;
+}
+@-webkit-keyframes validator-show-anim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
