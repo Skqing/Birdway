@@ -86,7 +86,7 @@ function send_mail(data) {
     if (!data) {
         return;
     }
-    if (config.debug) {
+    if (global.globalconfig.debug) {
         console.log('******************** 在测试环境下，不会真的发送邮件*******************');
         for (var k in data) {
             console.log('%s: %s', k, data[k]);

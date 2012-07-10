@@ -20,6 +20,7 @@ function bootRouterServer(server) {
     server.get('/', site.index);
     server.get('/security/user_login', user.login);
     server.post('/security/user_login', user.login);
+    server.get('/security/user_singup', user.login);
     server.post('/security/user_singup', user.singup);
 
     server.get('/system/verifycode', system.verifycode);

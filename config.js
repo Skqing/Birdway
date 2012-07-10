@@ -17,7 +17,7 @@ exports.dbconfig = (function(){
 })();
 
 exports.globalconfig = (function(){
-    var realpath =  __dirname + '/config/' + global.Module.url.parse('globalconfig.properties').pathname;
+    var realpath =  __dirname + '/config/' + global.Module.url.parse('global.properties').pathname;
     return myutils.fileparser.parseproperties(realpath, null);
 })();
 

@@ -37,7 +37,7 @@
                     <input id="rVC" class="vc" name="verifycode" type="text" value=""><img id="rvcimg" class="vcimg" src="/system/verifycode" title="点击，换一张">
                 </li>
             </ol>
-            <input id="registbut" type="submit" value="注册" class="btn-submit">
+            <input id="registbut" type="button" value="注册" class="btn-submit">
             <div class="backError"><%= ""+locals.singuperror=="undefined"?"":singuperror %></div>
         </form>
     </div>
@@ -60,7 +60,7 @@
                 </li>
             </ol>
             <input id="loginbut" type="button" value="登录" class="btn-submit">
-            <div class="backError"><%= locals.loginerror && ((""+loginerror) != "undefined" && loginerror || "") %></div>
+            <div class="backError"><%= ""+locals.loginerror=="undefined"?"":loginerror %></div>
         </form>
     </div>
 </div>

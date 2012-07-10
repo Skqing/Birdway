@@ -96,7 +96,7 @@ $(function(){
         $("#loginForm").submit();
     });
     $("#registbut").click(function(){
-
+        $("#registForm").submit();
     });
 
     //提交后没有返回错误信息的话隐藏错误提示条
