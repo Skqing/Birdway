@@ -10,6 +10,7 @@
 var site = require('./src/action/system/site_action');
 var user = require('./src/action/security/user_action');
 var system = require('./src/action/system/system_action');
+var gpsserver = require('./src/action/mobileserver/GPSService');
 
 module.exports.boot = function(server){
     bootRouterServer(server);
@@ -23,7 +24,18 @@ function bootRouterServer(server) {
     server.get('/security/user_singup', user.login);
     server.post('/security/user_singup', user.singup);
 
+
+
+
+
+
     server.get('/system/verifycode', system.verifycode);
+
+
+    server.get('/gps/:uin/:lo/:la/:el', gpsserver.gps);
+
+
+
 //    server.all('/user/:id/:op?', function(req, res, next){
 //        req.user = users[req.params.id];
 //        if (req.user) {

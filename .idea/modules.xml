@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/birdway.org.iml" filepath="$PROJECT_DIR$/.idea/birdway.org.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/birdway.iml" filepath="$PROJECT_DIR$/.idea/birdway.iml" />
     </modules>
   </component>
 </project>

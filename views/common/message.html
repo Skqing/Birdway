@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>信息提示</title>
+</head>
+<body>
+
+
+
+<% if (locals.singupok_success) { %>
+<div class="alert alert-error">
+    <a class="close" data-dismiss="alert" href="#">&times;</a>
+    <h1><%= singupok_success %></h1>
+    <a href="www.live.com" target="_blank">去查收邮件</a> <a href="/security/user_login">去登录</a>
+</div>
+<% } %>
+</body>
+</html>

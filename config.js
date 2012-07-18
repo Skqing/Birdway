@@ -22,9 +22,17 @@ exports.globalconfig = (function(){
 })();
 
 exports.mailconfig = (function(){
-    var realpath =  __dirname + '/config/' + global.Module.url.parse('mail.properties').pathname;
+    var realpath =  __dirname + '/config/' + global.Module.url.parse('email.properties').pathname;
     return myutils.fileparser.parseproperties(realpath, null);
 })();
+
+exports.emailsite = (function(){
+    var realpath =  __dirname + '/config/' + global.Module.url.parse('emailsite.properties').pathname;
+    return myutils.fileparser.parseproperties(realpath, null);
+})();
+
+
+
 function bootConfigServer(server) {
 
 

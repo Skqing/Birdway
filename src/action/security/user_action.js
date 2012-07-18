@@ -25,10 +25,15 @@ var notJump = [
 ];
 
 exports.login = function(req, res, next){
+    var reqtype_json = false;
+
+    if (req.header('Accept', '*/*').indexOf('application/json') != -1) {
+        reqtype_json = true;
+    }
+
     var method = req.method.toLowerCase();
     if (method === 'get'){
-        res.render('security/login');
-        return;
+        return res.render('security/login');
     }
     if(method === 'post'){
         var username = sanitize(req.body.username).trim().toLowerCase();
@@ -36,7 +41,6 @@ exports.login = function(req, res, next){
 
         if (!username || !password) {
             return res.render('security/login', { loginerror: '信息不完整。' });
-            console.log("信息不完整。");
         }
 
         User.findOne({ 'loginname': username }, function(err, user) {
@@ -49,23 +53,22 @@ exports.login = function(req, res, next){
                 return res.render('security/login', { loginerror:'密码错误。' });
             }
             if (!user.active) {
-                res.render('security/login', { loginerror:'此帐号还没有被激活。' });
-                return;
+                return res.render('security/login', { loginerror:'此帐号还没有被激活。' });
             }
             // store session cookie
             gen_session(user, res);
             //check at some page just jump to home page
-            var refer = req.session._loginReferer || 'home';
-            for (var i=0, len=notJump.length; i!=len; ++i) {
+            var refer = req.session._loginReferer || 'home';  //这段代码不知道是干嘛的？
+            for (var i=0, len = notJump.length; i!=len; ++i) {
                 if (refer.indexOf(notJump[i]) >= 0) {
                     refer = 'home';
                     break;
                 }
             }
 //            res.redirect(refer);
+            if (reqtype_json) res.send({'state': 'aok'});
             res.render('index');
         });
-
     }
 }
 
@@ -141,7 +144,7 @@ exports.singup = function(req, res, next){
                 if(err) return next(err);
                     global.Middle.service.mail.send_active_mail(email, global.Middle.utils.security.md5(email+global.globalconfig.user_session_key), name, email, function(err,success){
                     if(success){
-                        res.render('security/singupok', {success:'欢迎加入 ' + global.globalconfig.name + '！我们已给您的注册邮箱发送了一封邮件，请点击里面的链接来激活您的帐号。', useremail:email});
+                        res.render('common/message', {singupok_success:'欢迎加入 ' + global.globalconfig.name + '！我们已给您的注册邮箱发送了一封邮件，请点击您注册邮箱里面的链接来激活您的帐号。', site:global.Middle.utils.paramtrans.emailorsite(email)});
                         return;
                     }
                 });
@@ -150,7 +153,28 @@ exports.singup = function(req, res, next){
     }
 }
 
-function gen_session(user,res) {
+exports.active_account = function(req, res, next) {
+    var key = req.query.key;
+    var name = req.query.name;
+    var email = req.query.email;
+
+    User.findOne({name:name}, function(err, user){
+        if(!user || global.Middle.utils.security.md5(email+global.globalconfig.user_session_key) != key){
+            res.render('notify/active_notify',{error: '信息有误，帐号无法被激活。'});
+            return;
+        }
+        if(user.active){
+            res.render('notify/active_notify',{error: '帐号已经是激活状态。'});
+            return;
+        }
+        user.active = true;
+        user.save(function(err){
+            res.render('notify/active_notify',{success: '帐号已被激活，请登录'});
+        });
+    });
+}
+
+function gen_session(user, res) {
     var auth_token = global.Middle.utils.encrypt(user._id + '\t' + user.loginname + '\t' + user.password + '\t' + user.email, global.globalconfig.user_session_key);
     res.cookie(global.globalconfig.cookie_id, auth_token, {path: '/',maxAge: 1000*60*60*24*30}); //cookie 有效期30天
 }

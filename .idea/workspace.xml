@@ -2,15 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991b9217-7f76-42c4-8448-5cd8b6d5192e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/emailsite.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-coffee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/plugin-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/sea-debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/seajs/sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/system/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/mobileserver/GPSService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/mobileserver/SensorService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/paramtrans.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/notify/active_notify.html" />
+      <change type="DELETED" beforePath="E:\WebstormProjects\birdway\views\security\singupok.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/login.js" afterPath="$PROJECT_DIR$/public/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/global.properties" afterPath="$PROJECT_DIR$/config/global.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router.js" afterPath="$PROJECT_DIR$/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/security/user_action.js" afterPath="$PROJECT_DIR$/src/action/security/user_action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/system/site_action.js" afterPath="$PROJECT_DIR$/src/action/system/site_action.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/mail.js" afterPath="$PROJECT_DIR$/src/services/mail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/security/login.html" afterPath="$PROJECT_DIR$/views/security/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/security/singupok.html" afterPath="$PROJECT_DIR$/views/security/singupok.html" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway.org\config\globalconfig.properties" afterPath="$PROJECT_DIR$/config/global.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
+      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\.idea\birdway.org.iml" afterPath="$PROJECT_DIR$/.idea/birdway.iml" />
+      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\config\mail.properties" afterPath="$PROJECT_DIR$/config/email.properties" />
+      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\views\common\404.html" afterPath="$PROJECT_DIR$/views/common/error/404.html" />
     </list>
     <ignored path="birdway.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,52 +59,61 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.0">
+            <state line="91" column="43" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileparser.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/fileparser.js">
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="24" column="54" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_action.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user_action.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.45010182">
+            <state line="48" column="24" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/security/login.html">
+      <file leaf-file-name="paramtrans.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/paramtrans.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="32" selection-start="1825" selection-end="1834" vertical-scroll-proportion="-25.5">
+            <state line="11" column="11" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2679083">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/login.css">
+      <file leaf-file-name="GPSService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/action/mobileserver/GPSService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+            <state line="11" column="11" selection-start="267" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/login.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="17" selection-start="3140" selection-end="3149" vertical-scroll-proportion="0.0">
+            <state line="18" column="28" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/system/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="40" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,22 +132,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/middle.js" />
-        <option value="$PROJECT_DIR$/config/mail.properties" />
-        <option value="$PROJECT_DIR$/src/action/system/system.js" />
-        <option value="$PROJECT_DIR$/src/action/system/site_action.js" />
-        <option value="$PROJECT_DIR$/src/utils/fileparser.js" />
-        <option value="$PROJECT_DIR$/src/action/system/system_action.js" />
-        <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/public/css/login.css" />
-        <option value="$PROJECT_DIR$/views/security/login.html" />
-        <option value="$PROJECT_DIR$/public/js/login.js" />
-        <option value="$PROJECT_DIR$/router.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/src/services/mail.js" />
+        <option value="$PROJECT_DIR$/views/security/notify.html" />
         <option value="$PROJECT_DIR$/config/global.properties" />
-        <option value="$PROJECT_DIR$/views/security/singupok.html" />
+        <option value="$PROJECT_DIR$/src/services/mail.js" />
+        <option value="$PROJECT_DIR$/views/common/message.html" />
+        <option value="$PROJECT_DIR$/src/utils/emailsite.js" />
+        <option value="$PROJECT_DIR$/config/mailsite.properties" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/src/utils/paramtrans.js" />
+        <option value="$PROJECT_DIR$/router.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/action/system/site_action.js" />
         <option value="$PROJECT_DIR$/src/action/security/user_action.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/utils/fileparser.js" />
       </list>
     </option>
   </component>
@@ -189,103 +222,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
+              <option name="myItemId" value="birdway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
+              <option name="myItemId" value="birdway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="birdway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -314,13 +261,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\birdway.org\src\services" />
       <recent name="E:\WebstormProjects\birdway.org\node_modules" />
+      <recent name="E:\WebstormProjects\birdway.org\public\js" />
+      <recent name="E:\WebstormProjects\birdway.org\src\services" />
       <recent name="E:\WebstormProjects\birdway.org\src\utils" />
       <recent name="E:\WebstormProjects\birdway.org\public\js\kitjs\widget" />
-      <recent name="E:\WebstormProjects\birdway.org\public\js\kitjs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\birdway.org\public\js\system" />
+      <recent name="E:\WebstormProjects\birdway.org\views\common\error" />
+      <recent name="E:\WebstormProjects\birdway.org\views\notify" />
       <recent name="E:\WebstormProjects\birdway.org\app\routes\security" />
     </key>
   </component>
@@ -391,7 +341,11 @@
       <created>1341834837215</created>
       <updated>1341834837215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改后台部分，完善注册登录功能">
+      <created>1341897187454</created>
+      <updated>1341897187454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -421,11 +375,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1905434" sideWeight="0.7320442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17995766" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29834256" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2679558" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679558" sideWeight="0.6669019" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679558" sideWeight="0.32815808" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -498,114 +452,84 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/security.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.34623218">
-          <folding />
-        </state>
+        <state line="21" column="29" selection-start="615" selection-end="615" vertical-scroll-proportion="0.72708756" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebIde40/system/extLibs/nodejs-v0.6.11-src/lib/events.js">
+    <entry file="file://$PROJECT_DIR$/src/action/system/site_action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="39" column="4" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.6964286" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/promise.js">
+    <entry file="file://$PROJECT_DIR$/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.94842404" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
+    <entry file="file://$PROJECT_DIR$/config/email.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="52" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="69" selection-end="93" vertical-scroll-proportion="0.0730659" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="278" column="0" selection-start="5511" selection-end="5511" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="6" column="10" selection-start="124" selection-end="124" vertical-scroll-proportion="0.1461318" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="492" selection-end="492" vertical-scroll-proportion="0.48817205">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/forever/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="76" selection-start="537" selection-end="537" vertical-scroll-proportion="0.50992066">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forever/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/fileparser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="22" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.73209167" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="91" column="43" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/global.properties">
+    <entry file="file://$PROJECT_DIR$/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="160" selection-end="160" vertical-scroll-proportion="0.53968257">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="60" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.5978495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="17" selection-start="3140" selection-end="3149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="144" selection-end="153" vertical-scroll-proportion="0.16865079">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/security/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="1825" selection-end="1834" vertical-scroll-proportion="-25.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/security/singupok.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="171" selection-end="171" vertical-scroll-proportion="0.24895397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/mail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="21" selection-start="2026" selection-end="2033" vertical-scroll-proportion="0.5885947">
-          <folding />
-        </state>
+        <state line="24" column="54" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.45010182">
+        <state line="48" column="24" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/mobileserver/GPSService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="267" selection-end="270" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/system/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="40" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/paramtrans.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2679083">
           <folding />
         </state>
       </provider>

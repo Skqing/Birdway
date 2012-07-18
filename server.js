@@ -12,7 +12,7 @@ global.STATIC = {
     LOG : global.BASEDIR + '/log'
 }
 
-//==================模块引入==================
+//==================模块引入(系统模块)==================
 global.Module = {
     express : require('express'),
     sio : require('socket.io'),
@@ -48,6 +48,7 @@ require('./config').boot(server);
 global.dbconfig = require('./config').dbconfig;
 global.globalconfig = require('./config').globalconfig;
 global.mailconfig = require('./config').mailconfig;
+global.emailsite = require('./config').emailsite;
 //==================the end==================
 
 //模块中间路由
@@ -96,7 +97,7 @@ server.configure('development', function(){
 server.configure('production', function(){
   server.use(express.logger());
   server.use(express.errorHandler());
-//  server.use(gzippo.staticGzip(global.PUBLIC));  //压缩静态文件
+//  server.use(gzippo.staticGzip(global.STATIC.PUBLIC));  //压缩静态文件
 //  server.use(gzippo.compress());
 //  server.enable('view cache')  // view cache is enabled by default in production mode
 });

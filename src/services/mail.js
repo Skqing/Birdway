@@ -24,6 +24,7 @@ var SITE_ROOT_URL = 'http://' + global.globalconfig.host + (global.globalconfig.
  */
 var mails = [];
 var timer;
+var timevalue = 6*10000;
 /**
  * control mailer
  * @type {EventProxy}
@@ -65,7 +66,7 @@ mailEvent.on("getMail", function () {
         }
         if (failed) {
             clearTimeout(timer);
-            timer = setTimeout(trigger, 60000);
+            timer = setTimeout(trigger, timevalue);
         }
     }
 });
