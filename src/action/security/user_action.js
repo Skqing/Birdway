@@ -37,7 +37,9 @@ exports.login = function(req, res, next){
     }
     if(method === 'post'){
         var username = sanitize(req.body.username).trim().toLowerCase();
+        username = sanitize(username).xss();
         var password = sanitize(req.body.password).trim();
+        password = sanitize(password).xss();
 
         if (!username || !password) {
             return res.render('security/login', { loginerror: '信息不完整。' });
@@ -58,15 +60,22 @@ exports.login = function(req, res, next){
             // store session cookie
             gen_session(user, res);
             //check at some page just jump to home page
-            var refer = req.session._loginReferer || 'home';  //这段代码不知道是干嘛的？
-            for (var i=0, len = notJump.length; i!=len; ++i) {
-                if (refer.indexOf(notJump[i]) >= 0) {
-                    refer = 'home';
-                    break;
-                }
-            }
+//            var refer = req.session._loginReferer || 'home';  //这段代码不知道是干嘛的？
+//            for (var i=0, len = notJump.length; i!=len; ++i) {
+//                if (refer.indexOf(notJump[i]) >= 0) {
+//                    refer = 'home';
+//                    break;
+//                }
+//            }
 //            res.redirect(refer);
-            if (reqtype_json) res.send({'state': 'aok'});
+
+            global.Middle.service.location.LoginUserLocation(req.headers.host);
+
+            if (reqtype_json) {
+                res.send({'state': 'aok'});
+                res.end();
+            }
+
             res.render('index');
         });
     }
@@ -142,7 +151,7 @@ exports.singup = function(req, res, next){
             user.active = false;
             user.save(function(err){
                 if(err) return next(err);
-                    global.Middle.service.mail.send_active_mail(email, global.Middle.utils.security.md5(email+global.globalconfig.user_session_key), name, email, function(err,success){
+                    global.Middle.services.mail.send_active_mail(email, global.Middle.utils.security.md5(email+global.globalconfig.user_session_key), name, email, function(err,success){
                     if(success){
                         res.render('common/message', {singupok_success:'欢迎加入 ' + global.globalconfig.name + '！我们已给您的注册邮箱发送了一封邮件，请点击您注册邮箱里面的链接来激活您的帐号。', site:global.Middle.utils.paramtrans.emailorsite(email)});
                         return;
@@ -175,6 +184,6 @@ exports.active_account = function(req, res, next) {
 }
 
 function gen_session(user, res) {
-    var auth_token = global.Middle.utils.encrypt(user._id + '\t' + user.loginname + '\t' + user.password + '\t' + user.email, global.globalconfig.user_session_key);
+    var auth_token = global.Middle.utils.security.encrypt(user._id + '\t' + user.loginname + '\t' + user.password + '\t' + user.email, global.globalconfig.user_session_key);
     res.cookie(global.globalconfig.cookie_id, auth_token, {path: '/',maxAge: 1000*60*60*24*30}); //cookie 有效期30天
 }

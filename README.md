@@ -13,22 +13,21 @@
 
 ## 关于pull request
 所有提交都要严格遵循[Node编码规范](https://github.com/windyrobin/iFrame/blob/master/style.md)。
-如果需要写C++的底层实现，那么请遵循[C++编码规范](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml)
+如果需要写C++的底层实现，那么请遵循[C++编码规范](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml)。
 
 ## 关于作者
 Dolphin，屌丝JAVA程序员，致力于B/S开发，对PHP，javascript和前端开发一样有兴趣。
 从2012年4月接触Node便对她产生了浓厚的兴趣，并且开始学校这种让OOP程序员看起来纠结，无从着手的语言，
-但是Node给我个人带来的收获还是很大的她让我接触到了另一种不同的编程思想，她简洁，高效，迷人，所以有了这个**Birdway**，
+但是Node给我个人带来的收获还是很大的她让我接触到了另一种不同的编程思想，她简洁，高效，迷人，所以有了这个**[Birdway](http://birdway.org)**，
 希望Node大虾们多多指点，希望更多的开发者加入Node，也希望NodeJS能够发展的更完美。
 **联系方式**
 邮箱={live:longxinanlan@msn.cn, gmail:dolphinboyo@gmail.com}
 QQ:569141948(非诚勿扰，否则拉黑)
 个人主页:[DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
 
-## 版本
-
 
 ## License
+( The LGPL License )
 LGPL（GNU Lesser General Public License）
 
 Copyright (c) 2012 dolphinboy and other birdway's contributors

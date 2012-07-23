@@ -27,7 +27,7 @@ exports.parseproperties = function(uri, encoding){
             }
         }
     } catch (e) {
-        //e.message  //这里根据自己的需求返回
+        console.log("Error Message:"+e.message);
         return null;
     }
     return keyvalue;

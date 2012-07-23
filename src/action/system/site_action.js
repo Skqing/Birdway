@@ -11,7 +11,7 @@
 //    var txt = global.Module.fs.readFileSync(realpath);
 //    res.end(txt);
 //};
-
+var http = require('http');
 exports.index = function(req, res, next){
 //    var realpath =  __dirname + '/config/' + global.Module.url.parse('mail.properties').pathname;
 //    var content = global.Module.fs.readFileSync(realpath, "UTF-8");
@@ -31,7 +31,7 @@ exports.index = function(req, res, next){
 //            console.log(casetmp.toString());
 //        }
 //    }
-    console.log('req.is:'+req.is('text/html'));
+    console.log('req.is:'+req.is('application/json'));
     console.log('Accept:'+req.header('Accept', '*/*').indexOf('text/html'));
     console.log('host:'+req.header('host'));
     console.log('Referer:'+req.header('Referer'));
