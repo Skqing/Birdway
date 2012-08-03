@@ -4,74 +4,45 @@
     <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Welcome to Birdway!</title>
+    <link href="/css/index.css" rel="stylesheet" />
     <link href="/plugs/artDialog/skins/default.css" rel="stylesheet" />
-    <script src="/js/system/index.js"></script>
-    <script src="/js/jquery-1.7.2.min.js"></script>
-    <script src="/plugs/artDialog/artDialog.min.js"></script>
-    <script src="/plugs/artDialog/artDialog.plugins.min.js"></script>
-    <style type="text/css">
-        html{height:100%}
-        body{height:100%;
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-left: 0px;
-            margin-bottom: 0px;
-            padding-top: 0px;
-            padding-right: 0px;
-            padding-left: 0px;
-            padding-bottom: 0px;
-            background:url('/images/ajax-loader-bar.gif') no-repeat center;
-            text-align:center;
-            overflow:hidden;}
-        #map{z-index:-1;height:100%;width:100%;}
-        #console{position:relative;bottom:104px;z-index:1;
-            height:100px;
-            width:100%;
-            border:solid 4px #363232;border-bottom:none;}
-        #buttons{width:300px;margin:0 auto;}
-        .ctrlbut{cursor:pointer;}
-        #me{float:left;height:32px;width:32px;background:url('/images/me.png') no-repeat center;}
-        #partner{float:left;height:32px;width:32px;background:url('/images/partner.png') no-repeat center;}
+    <!-- 请注意JS加载顺序 -->
+    <script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <!--
+        <script src="http://api.ditu.aliyun.com/map.js" type="text/javascript"></script>
+        <script src="/js/system/aliyunmap.js" type="text/javascript"></script>
+    -->
+    <script src="/js/system/baidumap.js" type="text/javascript"></script>
 
-    </style>
+    <script src="/plugs/artDialog/artDialog.min.js" type="text/javascript"></script>
+    <script src="/plugs/artDialog/artDialog.plugins.min.js" type="text/javascript"></script>
+
+    <script src="/js/system/index.js" type="text/javascript"></script>
+
+    <script src="/socket.io/socket.io.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(function(){
-            $('#me').click(function(){
-                window.location.href='/security/user_login';
-            });
-            $('#partner').click(function(){
-
-
-                var dialog = art.dialog({
-                    id: 'partner_dialog',
-                    title: 'My partners!',
-                    content: '这里显示内容',
-                    width: 600,
-                    height: 500,
-                    top: '10%',
-                    left: '70%',
-                    fixed: true,
-                    esc: true
-                });
-
-
-
-            });
-        });
 
 
     </script>
 
+    <script type="text/javascript">
+        var socket = io.connect('http://127.0.0.1:8088');
+        socket.on('news', function (data) {
+            console.log(data);
+            socket.emit('my other event', { my: 'data' });
+        });
+    </script>
+
 </head>
-<body>
-<div id="map"></div>
+    <body>
+    <div id="mapdiv" ></div>
 
-<div id="console">
-    <div id="buttons">
-    <div id="me" class="ctrlbut"></div>
-    <div id="partner" class="ctrlbut"></div>
+    <div id="console">
+        <div id="buttons">
+        <div id="myself" class="ctrlbut"></div>
+        <div id="partner" class="ctrlbut"></div>
+        </div>
     </div>
-</div>
 
-</body>
-</html>
+    </body>
+    </html>

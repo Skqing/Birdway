@@ -1,7 +1,9 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-  
+var ObjectId = Schema.ObjectId;
+
 var UserSchema = new Schema({
+  userid: { type: ObjectId },
   realname: { type: String, index: true },
   loginname: { type: String, unique: true },
   password: { type: String },

@@ -10,9 +10,14 @@ var check = require('validator').check,
 
 var http = require('http');
 
-exports.LoginUserLocation = function(userip) {
+exports.LoginUserLocation = function(userhost) {
+    var cp = userhost.toString().indexOf(':');
+    var userip;
+    if (cp != -1) {
+        userip = userhost.substring(0, (cp-1));
+    }
 
-//    try {
+    //    try {
 //        check('abc', '错误的IP地址').notNull().isInt()
 //        check(userip).isIP();
 //    } catch (e) {
@@ -32,6 +37,7 @@ exports.LoginUserLocation = function(userip) {
 //            console.log("Get error: " + e.message);
 //        });
 //    })
+    global.requestip.sinaip.path = global.requestip.sinaip.path + userip;
     //这里要处理请求超时问题
     var req = http.request(global.requestip.sinaip, function(res) {
         console.log('STATUS: ' + res.statusCode);
@@ -51,4 +57,5 @@ exports.LoginUserLocation = function(userip) {
     //        req.write('data\n');
     //        req.write('data\n');
     req.end();
+
 }

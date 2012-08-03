@@ -5,19 +5,22 @@
  * Date: 12-7-20 下午2:21
  * 处理websocket任务
  */
+
+var parseCookie = require('connect').utils.parseCookie;
+
 /**
  * 配置socket.io
  */
-var socket = null;
+var io = null;
 
 exports.boot = function(server, sessionStore) {
-    if (!socket) socket = global.Module.sio.listen(server);
+    if (!io) io = global.Module.sio.listen(server);
 
     //设置session
-    socket.set('authorization', function(handshakeData, callback){
+    io.set('authorization', function(handshakeData, callback){
         // 通过客户端的cookie字符串来获取其session数据
         handshakeData.cookie = parseCookie(handshakeData.headers.cookie)
-        var connect_sid = handshakeData.cookie['uid'];
+        var connect_sid = handshakeData.cookie[global.globalconfig.cookie_id];
         if (connect_sid) {
             sessionStore.get(connect_sid, function(error, session){
                 if (error) {
@@ -40,4 +43,15 @@ exports.boot = function(server, sessionStore) {
 //    store:  sessionStore,                // Your session store
 //    parser: express.cookieParser()  // Cookie parser
 //});
+
+
+    io.sockets.on('connection', function (socket) {
+        var session = socket.handshake.session;//session
+        var name = session.name;
+        console.log(name);
+        socket.emit('news', { hello: 'world' });
+        socket.on('my other event', function (data) {
+            console.log(data);
+        });
+    });
 }

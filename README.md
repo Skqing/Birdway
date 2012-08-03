@@ -11,6 +11,10 @@
     [Nodemailer](https://github.com/andris9/Nodemailer):邮件发送模块
 ```
 
+## 数据
+acll.json 行政中心经纬度(Administrative center latitude and longitude) 数据来源：[阿里云](http://ditu.aliyun.com/jsdoc/map_api_city_lola.html)
+
+
 ## 关于pull request
 所有提交都要严格遵循[Node编码规范](https://github.com/windyrobin/iFrame/blob/master/style.md)。
 如果需要写C++的底层实现，那么请遵循[C++编码规范](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml)。
@@ -25,6 +29,10 @@ Dolphin，屌丝JAVA程序员，致力于B/S开发，对PHP，javascript和前�
 QQ:569141948(非诚勿扰，否则拉黑)
 个人主页:[DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
 
+## 版本命名规范
+**x.y.z**
+y为奇数时表示当前版本为开发版，如：1.5.1、1.7.2；
+y为偶数时表示当前版本为稳定版，如：1.6.3、1.8.2；
 
 ## License
 ( The LGPL License )

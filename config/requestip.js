@@ -10,7 +10,7 @@
 module.exports.sinaip = {
     "host":"int.dpool.sina.com.cn",
     "port":"80",
-    "path":"/iplookup/iplookup.php?format=js",
+    "path":"/iplookup/iplookup.php?format=js&ip=",
     "method":"GET"}
 
 module.exports.sinaip1 = {

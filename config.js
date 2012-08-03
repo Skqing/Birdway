@@ -36,6 +36,7 @@ exports.emailsite = (function(){
 // Configuration Server
 function bootConfigServer(server, express) {
     var expressValidator = require('express-validator');
+    var RedisStore = require('connect-redis')(express);
     var MongoStore = require('connect-mongo')(express);
     var sessionStore = new MongoStore({url:global.dbconfig.url, collection:global.dbconfig.collection});
 
@@ -59,11 +60,8 @@ function bootConfigServer(server, express) {
         server.use(express.cookieParser());
         server.use(expressValidator);  //验证框架
         server.use(express.session({
-            secret: 'uid',
+            secret: global.globalconfig.user_session_key,
             store: sessionStore }));
-//  server.use(express.session({secret: 'secret', key: 'express.sid'}));
-//  server.use(server.router);  //我们使用自己的router
-//  var oneYear = 31557600000;
         var maxAge = 3600000 * 24 * 30;
         server.use(express.static(global.STATIC.PUBLIC, { maxAge: maxAge }));
         server.use(express.favicon());

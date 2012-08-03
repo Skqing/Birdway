@@ -69,7 +69,17 @@ exports.login = function(req, res, next){
 //            }
 //            res.redirect(refer);
 
+            //记录用户session
+//            req.session;
+//            user
             global.Middle.service.location.LoginUserLocation(req.headers.host);
+
+
+            //要进行用户登录日志记录
+
+
+
+
 
             if (reqtype_json) {
                 res.send({'state': 'aok'});
