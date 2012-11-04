@@ -1,0 +1,136 @@
+@charset "utf-8";
+/**
+ * Author: DolphinBoy
+ * Email: longxinanlan@msn.cn
+ * Date: 12-7-3 下午4:29
+ * Description
+ */
+
+
+ol {
+    list-style: none;
+    padding-left: 40px;
+}
+
+li {
+	line-height: 30px;
+}
+li input {
+	width: 295px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccd1d5;
+	display: block;
+	border-radius: 5px;
+}
+input.btn-submit {
+    margin-left:40px;
+    margin-top:25px;
+	display: block;
+	overflow: hidden;
+	width: 88px;
+	height: 31px;
+	line-height: 31px;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+	font-family:"黑体", "华文细黑", "微软雅黑", "幼圆";
+	background: url(/images/loginbutton.png) no-repeat 0 0;
+}
+input.btn-submit:hover {
+    background-position: 0 -31px;
+}
+input.btn-submit:active {
+    background-position: 0 -62px;
+}
+
+span.formtitle {
+    width: 380px;
+    height: 30px;
+    display: block;
+    color: #818181;
+    font-size: 16px;
+	font-family: "黑体", "华文细黑", "微软雅黑", "幼圆";
+	border-bottom: 1px solid #d7d7d7;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.notespan {color:red;}
+
+.errortip {
+	color: red;
+	display: none;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.verifycode_lab{display: block;}
+
+.verifycode {
+    width: 100px;
+    display: inline;
+}
+.vcimg {
+    float: right;
+    height: 38px;
+    width: 80px;
+    display: inline;
+    margin-right: 45px;
+}
+
+#maincontext {
+    margin: 0px auto;
+}
+#maincontext form {
+    /**box-shadow: 0 0 10px #d7d7d7;*/
+    background-color: #fff;
+    color: #818181;
+}
+
+
+/**登录样式*/
+#login-main {
+    width: 382px;
+    height: 400px;
+	float: right;
+	border: 2px solid #d7d7d7;
+	margin-top: 50px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+
+/**注册样式*/
+#regist-main {
+    width: 382px;
+    height: 600px;
+    float: left;
+    border: 2px solid #d7d7d7;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+
+
+
+.field-validation-error {
+	color: #BF1623;
+}
+.kitjs-validator {
+	color: #BF1623;
+    display: none;
+    margin-left: 1em;
+}
+.validator-show {
+    display: inline;
+    -webkit-animation: validator-show-anim 300ms 1 ease-in;
+}
+@-webkit-keyframes validator-show-anim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

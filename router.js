@@ -10,29 +10,26 @@
 var site = require('./src/action/system/site_action');
 var user = require('./src/action/security/user_action');
 var system = require('./src/action/system/system_action');
-var gpsserver = require('./src/action/mobileserver/GPSService');
+
+var sensor = require('./src/action/network/sensor_action');
 
 module.exports.boot = function(server){
     bootRouterServer(server);
-}
+};
 
 function bootRouterServer(server) {
-    // home page
-    server.get('/', site.index);
-    server.get('/security/user_login', user.login);
-    server.post('/security/user_login', user.login);
-    server.get('/security/user_singup', user.login);
-    server.post('/security/user_singup', user.singup);
+  // home page
+  server.get('/', site.index);
+  server.get('/security/user_login', user.login);  //用户登录
+  server.post('/security/user_login', user.login);
+  server.get('/security/user_regist', user.regist);
+  server.post('/security/user_regist', user.regist);  //用户注册
+  server.get('/security/my_info', user.myInfor);  //显示个人信息
+
+  server.get('/system/verifycode', system.verifycode);
 
 
-
-
-
-
-    server.get('/system/verifycode', system.verifycode);
-
-
-    server.get('/gps/:uin/:lo/:la/:el', gpsserver.gps);
+//    server.get('/gps/:uin/:lo/:la/:el', gpsserver.gps);
 
 
 
@@ -50,5 +47,9 @@ function bootRouterServer(server) {
 //        res.send('what???', 404);
 //    });
 
+  //测试版使用此路由来上传数据
+  server.get('/mobile/upload', sensor.uploadByGet);
+  server.get('/mobile/userid', sensor.getUserId);
 
-}
+  server.get('/data/show', sensor.showSensorData);
+};

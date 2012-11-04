@@ -19,7 +19,7 @@ module.exports = (function (){
         if (isFile && item !== 'index.js'){
             utils[item.substring(0, item.length-3)] = require(__dirname + '/' + item);
         }
-    })
+    });
     return utils;
 })();
 

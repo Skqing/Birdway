@@ -5,14 +5,33 @@
 **Birdway.org**是基于[Node.js](http://nodejs.org)的定位系统，地图暂时采用百度的地图服务，将来有可能整合Google的地图服务
 
 ## 模块
-```
-    [express](http://expressjs.com/):框架
-    [ejs](https://github.com/visionmedia/ejs):模板引擎
-    [Nodemailer](https://github.com/andris9/Nodemailer):邮件发送模块
-```
-
+``
+	[cluster](https://github.com/LearnBoost/cluster):Nodejs的多核服务器的管理  
+	[connect-mongo](https://github.com/kcbanner/connect-mongo):MongoDB的会话存储连接  
+	[connect-redis](https://github.com/visionmedia/connect-redis):Redis的会话存储连接  
+	[debug](https://github.com/visionmedia/debug):Nodejs和浏览器的库和应用程序的调试工具  
+	[ejs](https://github.com/visionmedia/ejs):模板引擎  
+	[eventproxy](https://github.com/JacksonTian/eventproxy):任务或事件基于异步模式的实现  
+	[express](http://expressjs.com/):基本框架  
+	[express-validator](https://github.com/ctavan/express-validator):express的验证插件  
+	[formidable](https://github.com/felixge/node-formidable):Nodejs的表单解析和文件上传中间件  
+	[generic-pool](https://github.com/coopernurse/node-pool):Nodejs的通用资源池中间件  
+	[gzippo](https://github.com/tomgco/gzippo):express的压缩静态文件的中间件  
+	[http-proxy](https://github.com/nodejitsu/node-http-proxy):	Nodejs的一个全功能的HTTP代理中间件  
+	[jade](https://github.com/visionmedia/jade):坚固耐用，美观大方，功能丰富的模板引擎  
+	[jqtpl](https://github.com/kof/node-jqtpl):jQuery的模板引擎  
+	[memcached](https://github.com/3rd-Eden/node-memcached):Nodejs的Memcached客户端  
+	[mime](https://github.com/broofa/node-mime):一个用于处理MIME类型的超级简单的实用工具库  
+	[]():
+	[Nodemailer](https://github.com/andris9/Nodemailer):邮件发送模块  
+``
+## 插件
+``
+    jQuery-1.7.2  
+	artDialog-4.1.2
+``
 ## 数据
-acll.json 行政中心经纬度(Administrative center latitude and longitude) 数据来源：[阿里云](http://ditu.aliyun.com/jsdoc/map_api_city_lola.html)
+acll.json：行政中心经纬度(Administrative center latitude and longitude) 数据来源：[阿里云](http://ditu.aliyun.com/jsdoc/map_api_city_lola.html)
 
 
 ## 关于pull request
@@ -26,7 +45,7 @@ Dolphin，屌丝JAVA程序员，致力于B/S开发，对PHP，javascript和前�
 希望Node大虾们多多指点，希望更多的开发者加入Node，也希望NodeJS能够发展的更完美。
 **联系方式**
 邮箱={live:longxinanlan@msn.cn, gmail:dolphinboyo@gmail.com}
-QQ:569141948(非诚勿扰，否则拉黑)
+QQ:569141948(非诚勿扰)
 个人主页:[DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
 
 ## 版本命名规范

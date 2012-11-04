@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>用户注册\登录</title>
+    <link href="/css/login.css" rel="stylesheet" />
+    <script src="/js/jquery-1.7.2.min.js"></script>
+    <script src="/js/system/login.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+<div id="maincontext">
+    <div id="contexttitle">这里有图片</div>
+    <div id="regist-main">
+        <span class="formtitle">用户注册</span>
+        <form id="registForm" action="/security/user_singup" method="post">
+            <ol>
+                <li>
+                    <label><span class="notespan">*</span>用户名：<span id="rUNtip" class="errortip">用户名不能为空</span></label>
+                    <input id="rUN" name="username" type="text" value="">
+                </li>
+                <li>
+                    <label><span class="notespan">*</span>电子邮件：<span id="rEmailtip" class="errortip">电子邮件不能为空</span></label>
+                    <input id="rEmail" name="useremail" type="text" value="">
+                </li>
+                <li>
+                    <label><span class="notespan">*</span>密码：<span id="rPWtip" class="errortip">密码不能为空</span></label>
+                    <input id="rPW" name="password" type="password">
+                </li>
+                <li>
+                    <label><span class="notespan">*</span>重新输入密码：<span id="rCPtip" class="errortip">重复密码不能为空</span></label>
+                    <input id="rCP" name="confirmpassword" type="password">
+                </li>
+                <li>
+                    <label class="vlab"><span class="notespan">*</span>验证码：<span id="rVCtip" class="errortip">验证码不能为空</span></label>
+                    <input id="rVC" class="vc" name="verifycode" type="text" value=""><img id="rvcimg" class="vcimg" src="/system/verifycode" title="点击，换一张">
+                </li>
+            </ol>
+            <input id="registbut" type="button" value="注册" class="btn-submit">
+            <div class="backError"><%= ""+locals.singuperror=="undefined"?"":singuperror %></div>
+        </form>
+    </div>
+
+    <div id="login-main">
+        <span class="formtitle">用户登录</span>
+        <form id="loginForm" action="/security/user_login" method="post">
+            <ol>
+                <li>
+                    <label><span class="notespan">*</span>帐户名：<span id="lUNtip" class="errortip">帐户名不能为空</span></label>
+                    <input id="lUN" name="username" type="text" value="">
+                </li>
+                <li>
+                    <label><span class="notespan">*</span>密码：<span id="lPWtip" class="errortip">密码不能为空</span></label>
+                    <input id="lPW" name="password" type="password">
+                </li>
+                <li>
+                    <label class="vlab"><span class="notespan">*</span>验证码：<span id="lVCtip" class="errortip">验证码不能为空</span></label>
+                    <input id="lVC" class="vc" name="verifycode" type="text" value=""><img id="lvcimg" class="vcimg" src="/system/verifycode" title="点击，换一张">
+                </li>
+            </ol>
+            <input id="loginbut" type="button" value="登录" class="btn-submit">
+            <% if (locals.loginerror && loginerror.length > 0) { %>
+            <div class="backError"><%- loginerror %></div>
+            <% } %>
+        </form>
+    </div>
+</div>
+</body>
+</html>

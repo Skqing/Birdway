@@ -7,27 +7,37 @@
 //==================定义全局静态变量==================
 global.BASEDIR = __dirname;
 global.STATIC = {
-    PUBLIC : global.BASEDIR + '/public',
-    VIEW :  global.BASEDIR + '/view',
-    LOG : global.BASEDIR + '/log'
-}
+  PUBLIC : global.BASEDIR + '/public',
+  VIEW :  global.BASEDIR + '/view',
+  LOG : global.BASEDIR + '/log'
+};
 
 //==================模块引入(系统模块)==================
 global.Module = {
-    sio : require('socket.io'),
-    fs : require('fs'),
-    path : require('path'),
-    url : require('url'),
-    util : require('util'),
-    qs : require('querystring'),
-    cp : require('child_process')
-    //gzippo : require('gzippo')  //压缩静态文件
+  sio : require('socket.io'),
+  fs : require('fs'),
+  path : require('path'),
+  url : require('url'),
+  util : require('util'),
+  qs : require('querystring'),
+  cp : require('child_process')
+  //gzippo : require('gzippo')  //压缩静态文件
 //    parseCookie : require('connect').utils.parseCookie,
 //    MemoryStore : require('connect/middleware/session/memory')
-}
+};
 
+global.RESULT = {
+  status : 'status',
+  failed : 'failed',
+  success : 'success',
+  error : 'error',
+  msg : 'msg',
+  command : 'command',
+  ext : 'ext',
+  datatime :'datatime'
+};
 //==================创建服务器==================
-var express = require('express')
+var express = require('express');
 
 //gzippo = require('gzippo'),
 //    sios  = require('socket.io-sessions'),
@@ -44,12 +54,13 @@ var server = module.exports = express();
 //var yaml = require('yaml-config');
 //global.requestsinaip = yaml.readConfig('config/serverconfig.yaml');
 //global.requestsinaip = yaml.readConfig('config/serverconfig.yaml', 'sinaip');
-
-global.dbconfig = require('./config').dbconfig;
-global.globalconfig = require('./config').globalconfig;
-global.mailconfig = require('./config').mailconfig;
-global.emailsite = require('./config').emailsite;
+global.siteconfig = require('./config/site_config').siteconfig;
+global.mailconfig = require('./config/site_config').mailconfig;
 global.requestip = require('./config/requestip');
+//global.dbconfig = require('./server_config').dbconfig;
+//global.mailconfig = require('./server_config').mailconfig;
+//global.emailsite = require('./server_config').emailsite;
+
 //==================the end==================
 
 //配置服务参数
@@ -71,9 +82,8 @@ require('./router').boot(server);
 //    console.log('get url!');
 //});
 
-
 //错误处理
-//require('./error').boot(server);
+//require('./error').boot(server, express);
 
 server.listen(8088, function(){
 //  console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);

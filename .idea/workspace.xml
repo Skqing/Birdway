@@ -2,35 +2,392 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991b9217-7f76-42c4-8448-5cd8b6d5192e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/acll.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/requestip.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/system/aliyunmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/system/mapctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugs/LAB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugs/headjs/head.load.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugs/headjs/head.min.js" />
-      <change type="DELETED" beforePath="E:\WebstormProjects\birdway\config\requestip.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/user_icon&amp;60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero/aero_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero/aero_s2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg_css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg_css3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg_css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg_css3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome/border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome/chrome_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg_css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg_css3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/color_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog/idialog_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog/idialog_s2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera/s1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera/s2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/email-site.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/site_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/system/regist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/artDialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/artDialog.plugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/twitter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blurjs/blur.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ejs/ejs_fulljslint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ejs/ejs_production.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jquery/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tmpl/login.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tmpl/myinfo.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/network/sensor_action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/resptype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/sensor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/file_service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/charutils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/dateutils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/error/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/login-bak.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/regist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/regist_aok.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/showsensor.html" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\config\global.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\config\routes.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\jquery-1.7.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\plugin-base.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\plugin-combo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\sea.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\artDialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\artDialog.plugins.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\jquery.artDialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero\aero_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero\aero_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg_css3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg_css3_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg_css3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg_css3_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome\border.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome\chrome_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\default.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg_css3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg_css3_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\color_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog\idialog_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog\idialog_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera\s1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera\s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\simple.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\twitter.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\artDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\artDialog.plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\jquery.artDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\headjs\head.load.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\headjs\head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\labjs\LAB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\animate.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\content.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\first.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\login.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\second.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\frm_demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\leftFrame.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\mainFrame.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\topFrame.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\jquery-1.7.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\lhgdialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\blue_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\blue_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\blue_titbtn.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s2.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s3.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\default.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\discuz.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\iblack_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\iblack_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\iblue_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\iblue_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\fail.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\hits.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\i.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\succ.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\discuz_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\error.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\face-sad.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\face-smile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\gb_tip_layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\gb_tip_layer_ie6.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\lhgcore.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\prompt.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\success.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\tips.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\idialog_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\idialog_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_close.hover.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_close.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\igreen_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\igreen_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\jtop.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\mac.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value01.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value02.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value03.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value04.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value05.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value06.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value07.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value08.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value09.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value10.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value11.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value12.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\api.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\commercial_license.doc" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\common.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\android.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\boxtitle.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\dotline.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\hd_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\update.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\皮肤共用.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgcore.lhgdialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog文件夹中文件目录结构说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\blue_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\blue_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\blue_titbtn.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s2.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s3.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\default.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\discuz.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\iblack_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\iblack_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\iblue_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\iblue_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rt2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_t2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\fail.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\hits.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\i.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\succ.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\discuz_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\error.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\face-sad.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\face-smile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\gb_tip_layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\gb_tip_layer_ie6.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\lhgcore.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\prompt.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\success.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\tips.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\idialog_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\idialog_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_close.hover.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_close.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_l.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_lb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_lt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_r.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_rb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_rt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_t.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\igreen_s.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\igreen_s2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\jtop.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\mac.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\文件目录结构说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-coffee.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-json.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-less.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-text.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\sea-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\action\mobileserver\GPSService.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\action\mobileserver\SensorService.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\routes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\index.jade" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\layout.jade" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/birdway.iml" afterPath="$PROJECT_DIR$/.idea/birdway.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birdway.js" afterPath="$PROJECT_DIR$/birdway.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/global.properties" afterPath="$PROJECT_DIR$/config/global.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/requestip.js" afterPath="$PROJECT_DIR$/config/requestip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/system/index.js" afterPath="$PROJECT_DIR$/public/js/system/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugs/artDialog/artDialog.min.js" afterPath="$PROJECT_DIR$/public/plugs/artDialog/artDialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/requestip.json" afterPath="$PROJECT_DIR$/data/requestip.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.js" afterPath="$PROJECT_DIR$/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/middle.js" afterPath="$PROJECT_DIR$/middle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/init.js" afterPath="$PROJECT_DIR$/public/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/system/login.js" afterPath="$PROJECT_DIR$/public/js/system/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router.js" afterPath="$PROJECT_DIR$/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/security/user_action.js" afterPath="$PROJECT_DIR$/src/action/security/user_action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/system/system_action.js" afterPath="$PROJECT_DIR$/src/action/system/system_action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/index.js" afterPath="$PROJECT_DIR$/src/models/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/security/loginrecord.js" afterPath="$PROJECT_DIR$/src/models/security/loginrecord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/user.js" afterPath="$PROJECT_DIR$/src/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/location.js" afterPath="$PROJECT_DIR$/src/service/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/index.js" afterPath="$PROJECT_DIR$/src/service/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/fileparser.js" afterPath="$PROJECT_DIR$/src/utils/fileparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/index.js" afterPath="$PROJECT_DIR$/src/utils/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/security.js" afterPath="$PROJECT_DIR$/src/utils/security.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/security/login.html" afterPath="$PROJECT_DIR$/views/security/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websocket.js" afterPath="$PROJECT_DIR$/websocket.js" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\README.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\public\images\me.png" afterPath="$PROJECT_DIR$/public/images/myself.png" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\public\js\login.js" afterPath="$PROJECT_DIR$/public/js/system/login.js" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\public\js\login_bak.js" afterPath="$PROJECT_DIR$/public/js/system/login_bak.js" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\public\js\system\index.js" afterPath="$PROJECT_DIR$/public/js/system/baidumap.js" />
-      <change type="MOVED" beforePath="E:\WebstormProjects\birdway\server.js" afterPath="$PROJECT_DIR$/birdway.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\css\index.css" afterPath="$PROJECT_DIR$/public/css/home/index.css" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\css\login.css" afterPath="$PROJECT_DIR$/public/css/login-regist.css" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\aliyunmap.js" afterPath="$PROJECT_DIR$/public/js/map/aliyunmap.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\baidumap.js" afterPath="$PROJECT_DIR$/public/js/map/baidumap.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\index.js" afterPath="$PROJECT_DIR$/public/js/home/index.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\remote\remote.js" afterPath="$PROJECT_DIR$/src/service/remote.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\service\location.js" afterPath="$PROJECT_DIR$/src/service/location_service.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\service\mail.js" afterPath="$PROJECT_DIR$/src/service/mail_service.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\utils\paramtrans.js" afterPath="$PROJECT_DIR$/src/utils/transutils.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\security\login.jade" afterPath="$PROJECT_DIR$/Standard.md" />
     </list>
     <ignored path="birdway.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,37 +409,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="birdway.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/birdway.js">
+      <file leaf-file-name="login-regist.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/login-regist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+            <state line="115" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_action.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user_action.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="728" selection-end="728" vertical-scroll-proportion="0.7606264">
+            <state line="74" column="28" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginrecord.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/security/loginrecord.js">
+      <file leaf-file-name="sensor_action.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/action/network/sensor_action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+            <state line="47" column="2" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.9399293">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/location.js">
+      <file leaf-file-name="showsensor.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/showsensor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="7" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+            <state line="6" column="11" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,25 +448,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+            <state line="52" column="25" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/home/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="baidumap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/system/baidumap.js">
+        <entry file="file://$PROJECT_DIR$/public/js/map/baidumap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="11" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acll.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/acll.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
+            <state line="56" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,30 +485,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/plugs/artDialog/artDialog.min.js" />
-        <option value="$PROJECT_DIR$/public/js/init.js" />
-        <option value="$PROJECT_DIR$/public/js/system/mapctrl.js" />
-        <option value="$PROJECT_DIR$/public/js/system/index.js" />
-        <option value="$PROJECT_DIR$/public/css/index.css" />
-        <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/public/js/system/aliyunmap.js" />
-        <option value="$PROJECT_DIR$/public/js/system/baidumap.js" />
-        <option value="$PROJECT_DIR$/config/requestip.json" />
-        <option value="$PROJECT_DIR$/config/requestip.js" />
-        <option value="$PROJECT_DIR$/src/service/location.js" />
-        <option value="$PROJECT_DIR$/data/acll.json" />
-        <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/src/models/user.js" />
-        <option value="$PROJECT_DIR$/src/models/security/loginrecord.js" />
+        <option value="$PROJECT_DIR$/src/action/resptype.js" />
+        <option value="$PROJECT_DIR$/src/action/index.js" />
+        <option value="$PROJECT_DIR$/src/action/network/sensor_action.js" />
         <option value="$PROJECT_DIR$/src/action/security/user_action.js" />
+        <option value="$PROJECT_DIR$/src/models/security/loginrecord.js" />
+        <option value="$PROJECT_DIR$/src/models/sensor.js" />
+        <option value="$PROJECT_DIR$/src/service/file_service.js" />
+        <option value="$PROJECT_DIR$/src/service/location_service.js" />
+        <option value="$PROJECT_DIR$/src/service/mail_service.js" />
+        <option value="$PROJECT_DIR$/src/utils/charutils.js" />
+        <option value="$PROJECT_DIR$/src/utils/dateutils.js" />
+        <option value="$PROJECT_DIR$/src/utils/fileparser.js" />
+        <option value="$PROJECT_DIR$/src/utils/index.js" />
+        <option value="$PROJECT_DIR$/src/service/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/transutils.js" />
+        <option value="$PROJECT_DIR$/src/utils/security.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -161,33 +518,18 @@
             <id />
           </State>
           <State>
-            <id>Code Quality ToolsJavaScript</id>
-          </State>
-          <State>
             <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
           </State>
           <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
-            <id>HTML</id>
-          </State>
-          <State>
             <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Spelling</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>JSValidateJSON</id>
+            <id>UnterminatedStatementJS</id>
           </State>
         </selected-state>
       </profile-state>
@@ -233,7 +575,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
+              <option name="myItemId" value="Birdway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,97 +585,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
+              <option name="myItemId" value="Birdway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="birdway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,26 +610,26 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\birdway\public\plugs" />
-      <recent name="E:\WebstormProjects\birdway\public\plugs\headjs" />
-      <recent name="E:\WebstormProjects\birdway\data" />
-      <recent name="E:\WebstormProjects\birdway\node_modules" />
-      <recent name="E:\WebstormProjects\birdway\public\js\system" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\src\service" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\blurjs" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\images" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\artDialog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\birdway\public\js\system" />
-      <recent name="E:\WebstormProjects\birdway\src\services" />
-      <recent name="E:\WebstormProjects\birdway.org\public\js\system" />
-      <recent name="E:\WebstormProjects\birdway.org\views\common\error" />
-      <recent name="E:\WebstormProjects\birdway.org\views\notify" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\map" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\labjs" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\plugs" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\plugs" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\\home" />
     </key>
   </component>
   <component name="RunManager" selected="Node JS.birdway.js">
@@ -434,6 +690,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
@@ -487,24 +744,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20112915" sideWeight="0.6712707" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3121547" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2679558" sideWeight="0.6669019" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28867403" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20104244" sideWeight="0.3006757" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.7010135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28716215" sideWeight="0.6671631" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20104244" sideWeight="0.29222974" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2668919" sideWeight="0.6669019" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28716215" sideWeight="0.3276247" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.4973939" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2989865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -572,34 +829,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2163324" />
+        <state line="21" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.5321101" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/History.md">
+    <entry file="file://$PROJECT_DIR$/views/security/regist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="11" column="6" selection-start="288" selection-end="288" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
+    <entry file="file://$PROJECT_DIR$/src/service/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.74452555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.60888255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/tag_collect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/tag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="21" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.65504587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/index.js">
@@ -607,53 +849,83 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/message.js">
+    <entry file="file://$PROJECT_DIR$/src/action/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="66" selection-end="97" vertical-scroll-proportion="0.048710603" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/user.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/transutils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="128" selection-end="128" vertical-scroll-proportion="0.09742121" />
+        <state line="25" column="2" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7798165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/birdway.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/security.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0" />
+        <state line="42" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="1.2911392" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/security/loginrecord.js">
+    <entry file="file://$PROJECT_DIR$/src/service/remote.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/location.js">
+    <entry file="file://$PROJECT_DIR$/src/service/location_service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="7" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" />
+        <state line="44" column="0" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.1590106" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
+    <entry file="file://$PROJECT_DIR$/public/css/login-regist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/system/baidumap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="11" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/acll.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0" />
+        <state line="115" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="728" selection-end="728" vertical-scroll-proportion="0.7606264">
+        <state line="74" column="28" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/showsensor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="25" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/map/baidumap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/network/sensor_action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="2" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.9399293">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

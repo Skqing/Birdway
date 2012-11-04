@@ -6,7 +6,7 @@
  * 解析properties文件
  */
 
-exports.parseproperties = function(uri, encoding){
+exports.parseproperties = function(uri, encoding) {
     var encoding = encoding==null?'UTF-8':encoding;  //定义编码类型
     try {
         var content = global.Module.fs.readFileSync(uri, encoding);
@@ -31,7 +31,7 @@ exports.parseproperties = function(uri, encoding){
         return null;
     }
     return keyvalue;
-}
+};
 
 exports.parseXML = function(Objecttype, uri, encoding){
     var tmparray = new Array();
@@ -43,4 +43,4 @@ exports.parseXML = function(Objecttype, uri, encoding){
 
     }
     return null;
-}
+};

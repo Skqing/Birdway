@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <table>
+        <% if (data.length) { %>
+        <tr>
+            <% data.forEach(function(sensor){ %>
+            <td><%= sensor.longitude %></td><td><%= sensor.latitude %></td><td><%= sensor.altitude %></td>
+            <td><%= sensor.collect_time %></td><td><%= sensor.send_time %></td><td><%= sensor.create_at %></td>
+            <% }) %>
+        </tr>
+        <% } %>
+    </table>
+</body>
+</html>

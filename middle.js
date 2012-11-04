@@ -15,5 +15,6 @@
 //}
 
 module.exports.utils = require('./src/utils');
+module.exports.action = require('./src/action');
 module.exports.template = require('./src/models');
 module.exports.service = require('./src/service');
