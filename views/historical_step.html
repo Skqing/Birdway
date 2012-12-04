@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>我的历史足迹</title>
+    <link href="/css/historical_step.css" rel="stylesheet" />
+    <link href="/lib/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+    <script src="/js/map/historicalstep_bmap.js" type="text/javascript"></script>
+
+    <script src="/lib/kissy/kissy-min.js" type="text/javascript"></script>
+    <script src="/js/plugs/PCASClass.js" type="text/javascript"></script>
+    <script src="/lib/headjs/head.min.js" type="text/javascript"></script>
+    <script src="/lib/artDialog/artDialog.min.js" type="text/javascript"></script>
+    <script src="/lib/artDialog/artDialog.plugins.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        KISSY.ready(function(S){
+            var $ = S.all;
+
+            initmap();
+
+            //KISSY.one("body").style("background");
+
+            var $_one = S.one;
+
+            var address = new PCAS("province", "city", "area");
+            $("#s_but_id").on("click", function(){
+                var begindate_v = $("#begin_calendar")[0].value;
+                var enddate_v = $("#end_calendar")[0].value;
+                var province_v = $("#province_id")[0].value;
+                var city_v = $("#city_id")[0].value;
+                var area_v = $("#area_id")[0].value;
+
+                KISSY.io.post("/business/historicalstep/searchstep",
+                        {
+                            begindate: begindate_v,
+                            enddate: enddate_v,
+                            province: province_v,
+                            city: city_v,
+                            area: area_v
+                        },
+                        function(data){
+                            //把数据显示到地图上
+                            //处理数据为空的情况
+                            if(((data instanceof Object) && data.status == 'failed') ||
+                                    (data instanceof Array) && data.length == 0) {
+                                alert("未查询到任何数据！");
+                            }else if((data instanceof Array) && data.length >0){
+                                var gpoints = [];
+
+                            }else{
+                                alert("未知错误！");
+                            }
+                        },"json");
+            });
+
+        });
+
+    </script>
+    <script type="text/javascript">
+        var S=KISSY;
+
+        var c = {};
+        var showdate = function(n, d) {//计算d天的前几天或者后几天，返回date,注：chrome下不支持date构造时的天溢出
+            var uom = new Date(d - 0 + n * 86400000);
+            uom = uom.getFullYear() + "/" + (uom.getMonth() + 1) + "/" + uom.getDate();
+            return new Date(uom);
+        };
+
+        //加载日期选择框
+        KISSY.use('node,calendar,calendar/assets/dpl.css', function(S, Node, Calendar) {
+            var S_Date = S.Date;
+
+            var i = 0;
+            //开始日期日历
+            var begindate = new Calendar('#begin_calendar', {
+                popup:true,
+                triggerType:['focus'],
+                closable:true
+            }).on('select', function(e) {
+                        Node.one('#begin_calendar').val(S_Date.format(e.date, 'yyyy-mm-dd'));
+                    });
+            S.log(++i);
+            //结束日期日历日
+            var enddate = new Calendar('#end_calendar', {
+                popup:true,
+                triggerType:['focus'],
+                closable:true
+            }).on('select', function(e) {
+                        Node.one('#end_calendar').val(S_Date.format(e.date, 'yyyy-mm-dd'));
+                    });
+            S.log(++i);
+
+        });
+        /**
+         KISSY.config({
+         packages:[
+         {
+         path:"../"  //kissy-galllery不在kissy目录下面，所以要修正一下路径
+         }
+         ]
+         });
+         //加载地址选择框
+         KISSY.use("/kissy-gallery/province/index", function(S, LinkSelect){  //注意路径问题，kiss-gallery前面的 /
+         var $=S.all;
+
+         var a = new LinkSelect(["#province_id", "#city_id", "#area_id"], tdist, {
+         rootid: 1 //根节点的ID，默认为0
+         });
+
+         })
+         */
+    </script>
+</head>
+<body>
+<div id="mapdiv_id" ></div>
+
+<div id="s_div_id" class="controls">
+    <form id="s_step_form_id" action="#" method="post">
+        <input id="begin_calendar" type="text" class="input-medium" placeholder="开始日期" readonly />
+        <input id="end_calendar" type="text" class="input-medium" placeholder="结束日期" readonly />
+        <input id="s_but_id" type="button" class="btn" value="查 询" /><br/>
+
+        <select id="province_id" name="province" class="span2"></select>
+        <select id="city_id" name="city" class="span2"></select>
+        <select id="area_id" name="area" class="span2"></select>
+
+    </form>
+</div>
+</body>
+</html>

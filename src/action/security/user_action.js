@@ -82,8 +82,13 @@ exports.login = function(req, res, next){
       //暂且不考虑这个调用会阻塞login方法，但是这是一个要注意的地方……
       //global.Middle.service.location.LoginUserLocation(req.headers.host);
 
+      gen_session(user, res);
+
       //要记录用户session
       req.session.user_session_key = user;
+//      req.session.user_id_session_key = user._id;  //这个好像没作用，变量加不进去
+
+
 
       //要进行用户登录日志记录
       var userip = req.connection.remoteAddress;
@@ -101,8 +106,7 @@ exports.login = function(req, res, next){
 //        res.end();
 //      }
 
-      res.render('index', {user: user});
-      return;
+      return res.render('index', {user: user});
     });
   }
 }

@@ -12,27 +12,26 @@
  * 3.(JSON) ：返回JSON格式
  * 4.(字符串, 布尔值) ：返回数据流，第二个参数为指定的文件路径，第三个参数为是否是异步读取
  */
-exports.responseType = function(res, arg, brg) {
-  if (res !== null && typeof(res) !== 'undefined') {
-    if (arg !== null && brg !== null && typeof(arg) === 'string' && typeof(brg) === 'object') {
-      res.render(arg, brg);
-      return;
-    } else if (arg !== null && brg === null && arg.constructor === Array) {
+exports.responseType = function(res, arg, brg){
+  if(res !== null && typeof(res) !== 'undefined'){
+    if(arg !== null && brg !== null && typeof(arg) === 'string' && typeof(brg) === 'object'){
+      return res.render(arg, brg);
+    } else if (arg !== null && brg === null && arg.constructor === Array){
       res.writeHead(200, {'Content-Type': 'application/json'});
       var result = msgFormat(arg);
       res.write(result);
       console.log("result:"+result);
       res.end();
-    } else if (arg !== null && brg === null && arg.constructor === Object) {
+    }else if(arg !== null && brg === null && arg.constructor === Object){
       res.writeHead(200, {'Content-Type': 'application/json'});
       res.write(JSON.stringify(arg));
       res.end();
-    } else if (arg !== null && brg !== null && typeof(arg) === 'string' && typeof(brg) === 'boolean') {
+    }else if(arg !== null && brg !== null && typeof(arg) === 'string' && typeof(brg) === 'boolean'){
       //读取文件并返回（考虑两种情况，本域的文件或者静态文件服务器的文件）
 
       res.end();
     }
-  } else {
+  }else{
     return null;
   }
 };
@@ -45,15 +44,15 @@ exports.responseType = function(res, arg, brg) {
  * 第四个属性为扩展属性，可以为空
  * 第五个属性是时间，返回服务器时间，不能为空，但是在action层可以选填
  */
-function msgFormat(values) {
+function msgFormat(values) {  //这个要定义为一个匿名类才好
   if (typeof(values[0]) !== 'boolean' || values[0] !== 'false' || values[0] !== 'true') {
     //这里要做异常处理
   }
-  if (values[4] === null) {
+  if (values[5] === null) {
     var date = new Date();  //这里必须要控制时间格式，否则时间输出会是这样的："Sun Oct 07 2012 11:47:28 GMT+0800 (中国标准时间)"
-    values[4] = date.toLocaleString();
+    values[5] = date.toLocaleString();
   }
-  var result = {status: values[0], msg: values[1], command: values[2],
-    ext: values[3], datatime: values[4]};
+  var result = {status: values[0], errcode: values[1], msg: values[2], command: values[3],
+    ext: values[4], datatime: values[5]};
     return JSON.stringify(result);
 };

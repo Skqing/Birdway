@@ -147,5 +147,5 @@ exports.mailconfig = {
   mail_sender: 'birdway.org',
   mail_use_authentication: true,  //是否验证身份
   mail_user: 'birdway.org@gmail.com',  //邮箱用户名,只有当mail_use_authentication: true时才用
-  mail_pass: 'bird.way.org',  //输入邮箱密码，只有当mail_use_authentication: true时才用
+  mail_pass: 'bird.way.org'  //输入邮箱密码，只有当mail_use_authentication: true时才用
 };

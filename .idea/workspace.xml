@@ -2,392 +2,493 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991b9217-7f76-42c4-8448-5cd8b6d5192e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/user_icon&amp;60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero/aero_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero/aero_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg_css3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black/bg_css3_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg_css3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue/bg_css3_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome/chrome_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg_css3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/bg_css3_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green/color_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog/idialog_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog/idialog_s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera/s1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera/s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/email-site.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/site_config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/system/regist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/artDialog.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/artDialog.plugins.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/chrome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/idialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/artDialog/skins/twitter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blurjs/blur.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ejs/ejs_fulljslint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ejs/ejs_production.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jquery/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tmpl/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tmpl/myinfo.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/network/sensor_action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/resptype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/sensor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/file_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/charutils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/dateutils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/error/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/login-bak.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/regist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/security/regist_aok.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/showsensor.html" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\config\global.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\config\routes.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\plugin-base.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\plugin-combo.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\seajs\sea.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\artDialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\artDialog.plugins.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\jquery.artDialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero\aero_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\aero\aero_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\black\bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\blue\bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome\border.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\chrome\chrome_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg_css3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\bg_css3_2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\green\color_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog\idialog_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\idialog\idialog_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera\s1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\opera\s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\simple.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\skins\twitter.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\artDialog.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\artDialog.plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\artDialog\source\jquery.artDialog.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\headjs\head.load.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\headjs\head.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\labjs\LAB.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\animate.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\content.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\first.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\login.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\content\second.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\demo.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\demo.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\frm_demo.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\leftFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\mainFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\frameset\topFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\lhgdialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\blue_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\blue_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\blue_titbtn.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\blue\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s2.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\chrome\chrome_s3.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\discuz.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\iblack_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\iblack_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblack\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\iblue_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\iblue_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\iblue\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\fail.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\hits.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\i.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\32X32\succ.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\confirm.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\discuz_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\error.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\face-sad.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\face-smile.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\gb_tip_layer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\gb_tip_layer_ie6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\lhgcore.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\prompt.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\success.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\icons\tips.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\idialog_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\idialog_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_close.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\idialog\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\igreen_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\igreen\igreen_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\jtop.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\skins\mac.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value01.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value02.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value03.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value04.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value05.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value06.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value07.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value08.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value09.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value10.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value11.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_demo\value\value12.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\api.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\commercial_license.doc" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\common.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\android.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\boxtitle.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\dotline.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\images\hd_logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\prettify\prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\update.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\_doc\皮肤共用.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgcore.lhgdialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\lhgdialog文件夹中文件目录结构说明.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\blue_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\blue_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\blue_titbtn.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\blue\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s2.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\chrome\chrome_s3.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\discuz.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\iblack_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\iblack_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblack\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\iblue_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\iblue_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_lt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_rt2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\iblue\ie6\ui_t2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\fail.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\hits.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\i.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\32X32\succ.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\confirm.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\discuz_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\error.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\face-sad.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\face-smile.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\gb_tip_layer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\gb_tip_layer_ie6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\lhgcore.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\prompt.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\success.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\icons\tips.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\idialog_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\idialog_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_close.hover.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_close.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\idialog\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_b.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_l.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_lb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_lt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_r.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_rb.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_rt.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\ie6\ui_t.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\igreen_s.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\igreen\igreen_s2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\jtop.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\lhgdialog\skins\mac.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\lhgdialog\文件目录结构说明.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-debug.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-json.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-less.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\plugin-text.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\seajs\sea-debug.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\action\mobileserver\GPSService.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\action\mobileserver\SensorService.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\routes\index.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\index.jade" afterPath="" />
-      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\layout.jade" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/notlogin_avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/buttons/icons/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/buttons/icons/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/buttons/icons/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/external.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/im.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/visited.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/icons/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/ajax/io.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/local-storage/store.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/local-storage/swfstore.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/uploader/uploader.longzang.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/uploader/uploader.yui.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/bgcolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/color.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/cool-ie6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/cool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/icon_help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/icon_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/indent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/justify-center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/justify-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/justify-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/ks-editor-button-bg-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/ks-editor-button-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/maximize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/multiple-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/ol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/outdent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/overlay-hd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/pagebreak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/removeformat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/resizer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/restore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/sourcearea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/strike.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/templates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/text-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/text-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/ul.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/placeholder_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/placeholder_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/placeholder_xiami.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/tao-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/flash/expressInstall.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/invalid_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/msg_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/side.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/side.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/img/simple.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/historical_step.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/business/historicalstep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/map/home_bmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/plugs/PCASClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/buttons/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/buttons/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/fancy-type/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/fancy-type/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/link-icons/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/rtl/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/plugins/rtl/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/blueprint/src/typography.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bmaplib/transMore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy-gallery/province/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/ajax-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/anim-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/base-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/button-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/button/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/button/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/base-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/dpl/calendar-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/calendar/assets/dpl/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/combobox-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/combobox/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/combobox/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/component-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/cookie-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/badges-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/badges.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/base-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/common-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/flying-swing-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/flying-swing.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/forms-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/grids-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/grids.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/icons-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/icons-mixin-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/icons-mixin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/labels-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/labels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/mixins-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/mixins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset-context-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset-context.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset-mixin-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset-mixin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/tables-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/tables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/variables-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/css/dpl/variables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/datalazyload-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/dd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/dom-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/base-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/clipboard-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/deps-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/deps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/dom-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/domIterator-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/domIterator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/editor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/elementPath-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/elementPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/enterKey-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/enterKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/focusManager-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/focusManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/htmlDataProcessor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/htmlDataProcessor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/range-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/selection-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/selectionFix-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/selectionFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/styles-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/utils-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/walker-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/walker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/zIndexManager-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/core/zIndexManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/full-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/back-color/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/back-color/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/back-color/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/back-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bold/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bold/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bold/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bold/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bubble/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/bubble/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/button/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/button/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/checkbox-source-area/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/checkbox-source-area/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/code/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/code/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/code/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/code/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/btn-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/btn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/color-picker/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/color/color-picker/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/contextmenu/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/contextmenu/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/dent-utils/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/dent-utils/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/dialog-loader/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/dialog-loader/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/draft/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/draft/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/drag-upload/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/drag-upload/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/element-path/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/element-path/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fake-objects/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fake-objects/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-bridge/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-bridge/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-common/baseClass-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-common/baseClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-common/utils-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash-common/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/flash/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/focus-fix/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/focus-fix/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-family/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-family/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-family/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-family/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-size/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-size/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-size/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font-size/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font/ui-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/font/ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fore-color/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fore-color/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fore-color/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/fore-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/heading/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/heading/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/heading/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/heading/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/image/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/image/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/image/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/image/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/indent/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/indent/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/indent/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/indent/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/italic/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/italic/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/italic/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/italic/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-center/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-center/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-center/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-center/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-left/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-left/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-left/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-left/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-right/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-right/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-right/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-right/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-utils/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/justify-utils/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/utils-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/link/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/btn-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/btn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/list-utils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/local-storage/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/local-storage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/local-storage/storage-whitelist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/maximize/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/maximize/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/maximize/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/maximize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/menubutton/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/menubutton/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/multiple-upload/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/multiple-upload/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/multiple-upload/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/multiple-upload/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/ordered-list/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/ordered-list/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/ordered-list/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/ordered-list/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/outdent/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/outdent/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/outdent/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/outdent/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/overlay/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/overlay/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/page-break/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/page-break/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/preview/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/preview/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/progressbar/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/progressbar/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/remove-format/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/remove-format/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/remove-format/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/remove-format/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/resize/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/resize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/separator/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/separator/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/smiley/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/smiley/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/source-area/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/source-area/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/strike-through/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/strike-through/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/strike-through/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/strike-through/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/table/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/table/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/table/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/table/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/underline/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/underline/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/underline/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/underline/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/btn-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/btn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/undo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/unordered-list/cmd-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/unordered-list/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/unordered-list/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/unordered-list/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/video/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/video/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/video/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/video/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/word-filter/dynamic/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/word-filter/dynamic/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/xiami-music/dialog-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/xiami-music/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/xiami-music/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/plugin/xiami-music/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/bubble-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/bubble.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/button-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/code-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/color-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/draft-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/draft.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/editor-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/editor-pkg-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/editor-pkg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/elementpath-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/elementpath.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/menu-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/overlay-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/overlay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/progressbar-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/resize-plugin-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/resize-plugin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/select-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/smiley-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/smiley.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/tab-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/tab.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/table-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/upload-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/upload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/xiami-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/cool/xiami.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/editor-common-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/editor-common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/editor-iframe-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/editor/theme/editor-iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/event-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/flash-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/htmlparser-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/imagezoom-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/input-selection-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/json-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/kissy-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/kissy-nodejs-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menu-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menu/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menu/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menubutton-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menubutton/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/menubutton/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/mvc-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/node-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/overlay-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/overlay/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/overlay/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/resizable-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/seed-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/separator-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/sizzle-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/split-button-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/split-button/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/split-button/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/stylesheet-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/suggest-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/switchable-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tabs-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tabs/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tabs/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/template-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/toolbar-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/toolbar/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/toolbar/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tree-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tree/assets/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/tree/assets/dpl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/ua-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/base-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/validation/assets/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/waterfall-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/kissy/xtemplate-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/business/historicalstep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/business/travelplan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/business/usercenter/datamanag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/gps_sensor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/business/usercenter/data_import.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/historical_step.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/travel_plan.html" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\css\home\index.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\models\sensor.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/birdway.iml" afterPath="$PROJECT_DIR$/.idea/birdway.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birdway.js" afterPath="$PROJECT_DIR$/birdway.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/requestip.json" afterPath="$PROJECT_DIR$/data/requestip.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.js" afterPath="$PROJECT_DIR$/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/middle.js" afterPath="$PROJECT_DIR$/middle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/site_config.js" afterPath="$PROJECT_DIR$/config/site_config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/init.js" afterPath="$PROJECT_DIR$/public/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/system/login.js" afterPath="$PROJECT_DIR$/public/js/system/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/home/index.js" afterPath="$PROJECT_DIR$/public/js/home/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router.js" afterPath="$PROJECT_DIR$/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/resptype.js" afterPath="$PROJECT_DIR$/src/action/resptype.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/security/user_action.js" afterPath="$PROJECT_DIR$/src/action/security/user_action.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/system/system_action.js" afterPath="$PROJECT_DIR$/src/action/system/system_action.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/index.js" afterPath="$PROJECT_DIR$/src/models/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/security/loginrecord.js" afterPath="$PROJECT_DIR$/src/models/security/loginrecord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/user.js" afterPath="$PROJECT_DIR$/src/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/index.js" afterPath="$PROJECT_DIR$/src/service/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/fileparser.js" afterPath="$PROJECT_DIR$/src/utils/fileparser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/index.js" afterPath="$PROJECT_DIR$/src/utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/security.js" afterPath="$PROJECT_DIR$/src/utils/security.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/dateutils.js" afterPath="$PROJECT_DIR$/src/utils/dateutils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/security/login.html" afterPath="$PROJECT_DIR$/views/security/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websocket.js" afterPath="$PROJECT_DIR$/websocket.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\css\index.css" afterPath="$PROJECT_DIR$/public/css/home/index.css" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\css\login.css" afterPath="$PROJECT_DIR$/public/css/login-regist.css" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\aliyunmap.js" afterPath="$PROJECT_DIR$/public/js/map/aliyunmap.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\baidumap.js" afterPath="$PROJECT_DIR$/public/js/map/baidumap.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\system\index.js" afterPath="$PROJECT_DIR$/public/js/home/index.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\remote\remote.js" afterPath="$PROJECT_DIR$/src/service/remote.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\service\location.js" afterPath="$PROJECT_DIR$/src/service/location_service.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\service\mail.js" afterPath="$PROJECT_DIR$/src/service/mail_service.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\utils\paramtrans.js" afterPath="$PROJECT_DIR$/src/utils/transutils.js" />
-      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\security\login.jade" afterPath="$PROJECT_DIR$/Standard.md" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\public\js\map\baidumap.js" afterPath="$PROJECT_DIR$/public/js/map/historicalstep_bmap.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\src\action\system\site_action.js" afterPath="$PROJECT_DIR$/src/action/business/homepage.js" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\common\error\404.html" afterPath="$PROJECT_DIR$/views/common/errorcode/404.html" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\common\error\500.html" afterPath="$PROJECT_DIR$/views/common/errorcode/500.html" />
+      <change type="MOVED" beforePath="E:\WorkSpace\NodeJSProject\Birdway\views\common\message.html" afterPath="$PROJECT_DIR$/views/common/msg.html" />
     </list>
     <ignored path="birdway.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -409,64 +510,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login-regist.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/login-regist.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_action.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="28" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0">
+            <state line="169" column="28" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sensor_action.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/action/network/sensor_action.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="2" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.9399293">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showsensor.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/showsensor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="25" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.0">
+            <state line="57" column="55" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.6056701">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/home/index.js">
+      <file leaf-file-name="home_bmap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/map/home_bmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+            <state line="11" column="6" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baidumap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/map/baidumap.js">
+      <file leaf-file-name="historical_step.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/historical_step.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
+            <state line="9" column="4" selection-start="339" selection-end="420" vertical-scroll-proportion="-3.8076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historicalstep_bmap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/map/historicalstep_bmap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="45" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historicalstep.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/action/business/historicalstep.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="56" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -485,22 +577,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/public/js/plugs/PCASClass.js" />
+        <option value="$PROJECT_DIR$/router.js" />
+        <option value="$PROJECT_DIR$/views/historical_step-test.html" />
+        <option value="$PROJECT_DIR$/public/lib/kissy-gallery/province/index.js" />
+        <option value="$PROJECT_DIR$/src/models/gps_sensor.js" />
+        <option value="$PROJECT_DIR$/src/models/user.js" />
+        <option value="$PROJECT_DIR$/src/action/business/historicalstep.js" />
         <option value="$PROJECT_DIR$/src/action/resptype.js" />
-        <option value="$PROJECT_DIR$/src/action/index.js" />
-        <option value="$PROJECT_DIR$/src/action/network/sensor_action.js" />
-        <option value="$PROJECT_DIR$/src/action/security/user_action.js" />
-        <option value="$PROJECT_DIR$/src/models/security/loginrecord.js" />
-        <option value="$PROJECT_DIR$/src/models/sensor.js" />
-        <option value="$PROJECT_DIR$/src/service/file_service.js" />
-        <option value="$PROJECT_DIR$/src/service/location_service.js" />
-        <option value="$PROJECT_DIR$/src/service/mail_service.js" />
-        <option value="$PROJECT_DIR$/src/utils/charutils.js" />
-        <option value="$PROJECT_DIR$/src/utils/dateutils.js" />
-        <option value="$PROJECT_DIR$/src/utils/fileparser.js" />
-        <option value="$PROJECT_DIR$/src/utils/index.js" />
-        <option value="$PROJECT_DIR$/src/service/index.js" />
-        <option value="$PROJECT_DIR$/src/utils/transutils.js" />
-        <option value="$PROJECT_DIR$/src/utils/security.js" />
+        <option value="$PROJECT_DIR$/public/lib/bmaplib/transMore.js" />
+        <option value="$PROJECT_DIR$/public/css/home/index.css" />
+        <option value="$PROJECT_DIR$/public/css/historical_step.css" />
+        <option value="$PROJECT_DIR$/public/js/map/historicalstep_bmap.js" />
+        <option value="$PROJECT_DIR$/views/historical_step.html" />
+        <option value="$PROJECT_DIR$/public/js/map/home_bmap.js" />
+        <option value="$PROJECT_DIR$/public/css/home.css" />
+        <option value="$PROJECT_DIR$/views/index.html" />
       </list>
     </option>
   </component>
@@ -535,7 +627,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -589,7 +681,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Birdway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,37 +748,30 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\src\service" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\blurjs" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\images" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\artDialog" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\css" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\bmaplib" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\lib\kissy-gallery\province" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\views" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\plugs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\views\business\usercenter" />
+      <recent name="E:\WorkSpace\NodeJSProject\Birdway\src\action\business" />
       <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\map" />
       <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\plugs\labjs" />
       <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\plugs" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\plugs" />
-      <recent name="E:\WorkSpace\NodeJSProject\Birdway\public\js\\home" />
     </key>
   </component>
-  <component name="RunManager" selected="Node JS.birdway.js">
-    <configuration default="false" name="birdway.js" type="NodeJSConfigurationType" factoryName="Node JS" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="birdway.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
-      <RunnerSettings RunnerId="NodeJS.debug" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.debug" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node JS" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+  <component name="RunManager" selected="Node JS.Birdway">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node JS" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="birdway.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node JS Remote Debug">
@@ -670,8 +801,15 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
+    <configuration default="false" name="Birdway" type="NodeJSConfigurationType" factoryName="Node JS" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="birdway.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node JS.birdway.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node JS.Birdway" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -745,18 +883,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20104244" sideWeight="0.3006757" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.7010135" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28716215" sideWeight="0.6671631" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20104244" sideWeight="0.7432432" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25675675" sideWeight="0.5316456" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20104244" sideWeight="0.29222974" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2668919" sideWeight="0.6669019" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28716215" sideWeight="0.3276247" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25675675" sideWeight="0.46314222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.4973939" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.4944155" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2989865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,84 +967,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.5321101" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/security/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="288" selection-end="288" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="654" selection-end="654" vertical-scroll-proportion="0.65504587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/transutils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7798165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="1.2911392" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/remote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/location_service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.1590106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/login-regist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/action/security/user_action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="28" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0" />
+        <state line="169" column="28" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/showsensor.html">
+    <entry file="file://$PROJECT_DIR$/src/models/gps_sensor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
+        <state line="27" column="49" selection-start="880" selection-end="880" vertical-scroll-proportion="0.56743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="2" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.8623188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/kissy-gallery/province/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="101" selection-end="101" vertical-scroll-proportion="0.082125604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/resptype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="45" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.5483092">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/bmaplib/transMore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="18" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.82125604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/business/historicalstep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/business/historicalstep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="56" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/historical_step.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="63" selection-start="212" selection-end="212" vertical-scroll-proportion="0.3043478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/map/historicalstep_bmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/map/home_bmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/historical_step.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="339" selection-end="420" vertical-scroll-proportion="-3.8076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="34" selection-start="465" selection-end="465" vertical-scroll-proportion="-0.041062802">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="25" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/map/baidumap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/network/sensor_action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="2" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.9399293">
+        <state line="57" column="55" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.6056701">
           <folding />
         </state>
       </provider>

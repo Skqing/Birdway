@@ -12,7 +12,7 @@ global.STATIC = {
   LOG : global.BASEDIR + '/log'
 };
 
-//==================模块引入(系统模块)==================
+//--------模块引入(系统模块)--------
 global.Module = {
   sio : require('socket.io'),
   fs : require('fs'),
@@ -26,6 +26,7 @@ global.Module = {
 //    MemoryStore : require('connect/middleware/session/memory')
 };
 
+//--------返回结果--------
 global.RESULT = {
   status : 'status',
   failed : 'failed',
@@ -55,6 +56,7 @@ var server = module.exports = express();
 //global.requestsinaip = yaml.readConfig('config/serverconfig.yaml');
 //global.requestsinaip = yaml.readConfig('config/serverconfig.yaml', 'sinaip');
 global.siteconfig = require('./config/site_config').siteconfig;
+global.dbconfig = require('./config/site_config').dbconfig;
 global.mailconfig = require('./config/site_config').mailconfig;
 global.requestip = require('./config/requestip');
 //global.dbconfig = require('./server_config').dbconfig;

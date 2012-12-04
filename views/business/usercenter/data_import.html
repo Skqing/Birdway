@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPS数据管理</title>
+</head>
+<body>
+
+<form id="sensorform_id" action="/business/usercenter/datamanag_import" enctype="multipart/form-data" method="post">
+    <input name="filedata" type="file" />
+    <input type="submit" value="导入" />
+</form>
+
+<% if (locals.msg) { %>
+<div class="alert alert-error">
+    <h1><%= msg %></h1>
+</div>
+<% } %>
+</body>
+</html>

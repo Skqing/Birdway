@@ -20,7 +20,8 @@ require('./tag_collect');
 require('./relation');
 require('./message');
 
-require('./sensor');
+require('./gps_sensor');
+require('./address');
 
 exports.Tag = mongoose.model('Tag');
 
@@ -35,5 +36,5 @@ exports.TagCollect = mongoose.model('TagCollect');
 exports.Relation = mongoose.model('Relation');
 exports.Message = mongoose.model('Message');
 
-exports.Sensor = mongoose.model('Sensor');
-
+exports.GPSSensor = mongoose.model('GPSSensor');
+exports.Address = mongoose.model('Address');

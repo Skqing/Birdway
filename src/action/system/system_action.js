@@ -7,8 +7,8 @@
  */
 
 //var Canvas = require('canvas');
-//
-//exports.verifycode = function(req, res, next){
+
+exports.verifyCode = function(req, res, next){
 //  var canvas = new Canvas(100, 30);
 //  var  ctx = canvas.getContext('2d');
 //  var  items = 'abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPRSTUVWXYZ23456789'.split('');
@@ -36,4 +36,4 @@
 //    res.writeHead(200, { 'Content-Type': 'image/png', 'Content-Length': buf.length });
 //    res.end(buf);
 //  });
-//}
+};

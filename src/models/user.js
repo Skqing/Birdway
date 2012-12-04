@@ -3,9 +3,9 @@ var Schema = mongoose.Schema;
 var ObjectId = Schema.ObjectId;
 
 var UserSchema = new Schema({
-  userid: { type: ObjectId, index: true },
-  realname: { type: String, index: true },
-  loginname: { type: String, unique: true },
+//  _id: { type: ObjectId, index: true },
+  username: { type: String, index: true },
+  nickname: { type: String, required: true, unique: true },
   password: { type: String },
   email: { type: String, unique: true },
   url: { type: String },
@@ -23,8 +23,12 @@ var UserSchema = new Schema({
   following_count: { type: Number, default: 0 },
   collect_tag_count: { type: Number, default: 0 },
   collect_topic_count: { type: Number, default: 0 },
+
   create_at: { type: Date, default: Date.now },
+  create_by: { type: ObjectId, ref: 'User' },
   update_at: { type: Date, default: Date.now },
+  update_by: { type: ObjectId, ref: 'User' },  //这个要引用UserSchema
+
   is_star: { type: Boolean },
   level: { type: String },
   active: { type: Boolean, default: true },

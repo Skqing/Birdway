@@ -1,0 +1,27 @@
+@charset "utf-8";
+/**
+ * Author: DolphinBoy
+ * Email: longxinanlan@msn.cn
+ * Date: 12-11-25
+ * Description (样式描述信息)
+ */
+
+@import "style.css";
+
+body{
+    background:url('/images/map_loading.gif') no-repeat center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#mapdiv_id{
+    width: 100%;
+    height: 100%;
+}
+
+#s_div_id{
+    top: 50px;
+    right: 100px;
+    position: absolute;
+    z-index: 100;
+}

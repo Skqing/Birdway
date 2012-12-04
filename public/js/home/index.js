@@ -11,8 +11,8 @@ $(function(){
   //创建一个加载中的动态图
 
 
-  $('#myself').click(function(){
-    $.getJSON("/security/my_info", function(data) {
+  $('#myself_id').click(function(){
+    $.getJSON("/security/user_myinfo", function(data) {
       if (data != null) {  //var b = {}; b 同样不等于 null，这样var b = {};我们同样认为b为空，但是目前判断不出来
         if (data.status != 'failed') {  //判断是否已经登录，否则跳转到登录页面
           var myinfo_html = new EJS({url: '/tmpl/myinfo.ejs'}).render(data);  //生成模版
@@ -48,7 +48,7 @@ $(function(){
 
 
   });
-  $('#partner').click(function(){
+  $('#partner_id').click(function(){
 
       var dialog = art.dialog({
           id: 'my_partner_id',
