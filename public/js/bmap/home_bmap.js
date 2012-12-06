@@ -57,6 +57,10 @@ function initmap() {
   }
   addMarker(point, null);
 
+  //自定义覆盖物
+//  var mypoi = new CustomOverlay(map.getCenter(), 100, "red");
+//  map.addOverlay(mypoi);
+
   //var marker1 = new BMap.Marker(point);        // 创建标注
   //map.addOverlay(marker1);                     // 将标注添加到地图中
 
@@ -73,6 +77,7 @@ function initmap() {
   map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
 };
 
+var myIcon = new BMap.Icon("/images/user_icon#60.png", new BMap.Size(32, 70), {imageOffset: new BMap.Size(0, 0)});
 //function loadScript() {
 //    var script = document.createElement("script");
 //    script.src = "http://api.map.baidu.com/api?v=1.3&callback=initialize";
