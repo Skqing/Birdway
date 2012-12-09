@@ -9,6 +9,7 @@
     <orderEntry type="library" name="Node.js v0.8.14 Core Library" level="application" />
     <orderEntry type="library" name="jQuery-1.7.2" level="application" />
     <orderEntry type="library" name="KISSY" level="application" />
+    <orderEntry type="library" name="Node.js v0.8.15 Core Modules" level="application" />
   </component>
 </module>
 
