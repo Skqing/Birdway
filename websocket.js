@@ -1,7 +1,8 @@
 /**
- * User: DolphinBoy
+ * Author: DolphinBoy
  * Email: longxinanlan@msn.cn
- * Date: 12-7-20 下午2:21
+ * Date: 12-7-20
+ * Time: 14:21
  * 处理websocket任务
  */
 
@@ -12,7 +13,8 @@ var parseCookie = require('connect').utils.parseCookie;
  */
 var io = null;
 
-exports.boot = function(server, sessionStore) {
+exports.boot = function(server) {
+  var sessionStore = new MongoStore({url:global.dbconfig.url, collection:global.dbconfig.collection});
   if (!io) io = global.Module.sio.listen(server);
 
   //设置session
@@ -44,12 +46,20 @@ exports.boot = function(server, sessionStore) {
 
 
   io.sockets.on('connection', function (socket) {
-      var session = socket.handshake.session;//session
-      var name = session.name;
-      console.log(name);
-      socket.emit('news', { hello: 'world' });
-      socket.on('my other event', function (data) {
-          console.log(data);
-      });
+    var session = socket.handshake.session;//session
+    var name = session.name;
+    console.log(name);
+    socket.emit('news', { hello: 'world' });
+
+    //实时更新我的坐标，如果手机有采集到
+    socket.emit('my_info', {});
+
+    //实时更新我关注的好友的坐标
+    socket.on('my_watch', {});
+
+    socket.on('my other event', function (data) {
+        console.log(data);
+    });
+
   });
 };

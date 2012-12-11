@@ -1,4 +1,8 @@
 /**
+ * Author: DolphinBoy
+ * Email: longxinanlan@msn.cn
+ * Date: 12-6-10
+ * Time: 14:21
  * 主程序入口
  * 注意加载的顺序，不能随便更改
  * 加载配置文件、定义全局变量，初始化控制器，自定义错误处理
@@ -65,16 +69,19 @@ global.requestip = require('./config/requestip');
 
 //==================the end==================
 
-//配置服务参数
+// 配置服务参数
 require('./config').boot(server, express);
 
 
-//模块中间路由
+// 模块中间路由
 global.Middle = require('./middle');
 
 
-// Routes
+// 配置路由
 require('./router').boot(server);
+
+// 配置websocket
+require('./websocket').boot(server);
 
 //server.get('/', function(req, res){
 //    req.redirect("./static/index.html");
@@ -87,7 +94,7 @@ require('./router').boot(server);
 //错误处理
 //require('./error').boot(server, express);
 
-server.listen(8088, function(){
+server.listen(8088, function(){  //这地方可以指定监听的IP吧
 //  console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);
   console.log("Express server listening on port 8088");
 });

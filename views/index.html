@@ -75,6 +75,7 @@
                 var gpsMkr = new BMap.Marker(new BMap.Point(data.lon, data.lat)); //要用自定义的Marker
                 mapWforGPS.addOverlay(gpsMkr);
             }else{
+                myself = mkrs[0];
                 //这里要坐标转换
                 myself.setPosition(new BMap.Point(data.lon, data.lat));
             }

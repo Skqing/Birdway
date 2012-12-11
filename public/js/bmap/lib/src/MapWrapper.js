@@ -34,7 +34,7 @@ var BMapLib = window.BMapLib = BMapLib || {};
   /**
    * 每次最大可以转化的坐标点数量
    */
-  var CONVERT_NUM_ONCE = 20;
+  var CONVERT_NUM_ONCE = 50;
 
 
   /**
