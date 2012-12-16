@@ -1,0 +1,34 @@
+
+[submodule "node_modules/connect-mongo"]
+	path = node_modules/connect-mongo
+	url = git://github.com/kcbanner/connect-mongo.git
+
+[submodule "node_modules/connect-redis"]
+	path = node_modules/connect-redis
+	url = git://github.com/visionmedia/connect-redis.git
+
+[submodule "node_modules/ejs"]
+	path = node_modules/ejs
+	url = git://github.com/visionmedia/ejs.git
+
+
+
+[submodule "node_modules/mongoose"]
+	path = node_modules/mongoose
+	url = git://github.com/LearnBoost/mongoose.git
+
+
+[submodule "node_modules/node_redis"]
+	path = node_modules/node_redis
+	url = git://github.com/mranney/node_redis.git
+
+[submodule "node_modules/socket.io"]
+	path = node_modules/socket.io
+	url = git://github.com/LearnBoost/socket.io-node.git
+
+
+
+
+[submodule "node_modules/express"]
+	path = node_modules/express
+	url = git://github.com/visionmedia/express.git

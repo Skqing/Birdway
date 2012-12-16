@@ -31,12 +31,13 @@ exports.index = function(req, res, next){
 //            console.log(casetmp.toString());
 //        }
 //    }
-  console.log('req.is:'+req.is('application/json'));
-  console.log('Accept:'+req.header('Accept', '*/*').indexOf('text/html'));
-  console.log('host:'+req.header('host'));
-  console.log('Referer:'+req.header('Referer'));
-  console.log('accepts:'+req.accepts('text/html'));
-  console.log('user-agent:'+req.headers['user-agent']);
+
+//  console.log('req.is:'+req.is('application/json'));
+//  console.log('Accept:'+req.header('Accept', '*/*').indexOf('text/html'));
+//  console.log('host:'+req.header('host'));
+//  console.log('Referer:'+req.header('Referer'));
+//  console.log('accepts:'+req.accepts('text/html'));
+//  console.log('user-agent:'+req.headers['user-agent']);
 
     //    var type = {
 //            "ie":(tmp = ua.match(/msie ([\d.]+)/))?tmp[1]:false,

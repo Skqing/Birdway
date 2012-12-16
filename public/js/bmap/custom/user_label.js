@@ -7,14 +7,22 @@
  */
 
 // 定义自定义覆盖物的构造函数
-function UserOverlay(center, length, color){
+function UserLabel(user, center, length, color, level){
+  this._id = user._id;
   this._center = center;
   this._length = length;
   this._color = color;
+//  this._title =
+
+  this._lat = user.lat;
+  this._lng = user.lng;
+  this._image = user.img;
+
+  this._level = level;
 };
 
 // 实现初始化方法
-UserOverlay.prototype.initialize = function(map){
+UserLabel.prototype.initialize = function(map){
 // 保存map对象实例
   this._map = map;
   // 创建div元素，作为自定义覆盖物的容器
@@ -34,7 +42,7 @@ UserOverlay.prototype.initialize = function(map){
 };
 
 // 实现绘制方法
-UserOverlay.prototype.draw = function(){
+UserLabel.prototype.draw = function(){
 // 根据地理坐标转换为像素坐标，并设置给容器
   var position = this._map.pointToOverlayPixel(this._center);
   this._div.style.left = position.x - this._length / 2 + "px";
@@ -42,21 +50,21 @@ UserOverlay.prototype.draw = function(){
 };
 
 // 实现显示方法
-SquareOverlay.prototype.show = function(){
+UserLabel.prototype.show = function(){
   if (this._div){
     this._div.style.display = "";
   }
 };
 
 // 实现隐藏方法
-UserOverlay.prototype.hide = function(){
+UserLabel.prototype.hide = function(){
   if (this._div){
     this._div.style.display = "none";
   }
 };
 
 // 添加自定义方法
-UserOverlay.prototype.toggle = function(){
+UserLabel.prototype.toggle = function(){
   if (this._div){
     if (this._div.style.display == ""){
       this.hide();
@@ -67,10 +75,17 @@ UserOverlay.prototype.toggle = function(){
   }
 };
 
-// 移动到下一个坐标点
-UserOverlay.prototype.moveNextPoint = function(lat, lon){
+// 给一个坐标数组和一个间隔事件，让标签自动移动
+UserLabel.prototype.moves = function(points, time){
 
+}
+// 移动到下一个坐标点
+UserLabel.prototype.move = function(point){
+  var map = this._map;
+  var nextpixel = map.pointToOverlayPixel(point);
+  this._div.style.left = nextpixel.x - parseInt(this._arrow.style.left) + "px";
+  this._div.style.top  = nextpixel.y - 30 + "px";
 };
 
 // 继承API的BMap.Overlay
-UserOverlay.prototype = new BMap.Overlay();
+UserLabel.prototype = new BMap.Overlay();

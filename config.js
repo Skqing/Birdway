@@ -76,8 +76,6 @@ function bootConfigServer(server, express) {
 //  server.use(gzippo.staticGzip(global.STATIC.PUBLIC));  //压缩静态文件
 //  server.use(gzippo.compress());
 //  server.enable('view cache')  // view cache is enabled by default in production mode
-      //
-      require('./websocket').boot(server, sessionStore);
   });
 };
 

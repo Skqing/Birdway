@@ -12,8 +12,7 @@
 	[connect-redis](https://github.com/visionmedia/connect-redis): Redis的session存储驱动  
 	[ejs](https://github.com/visionmedia/ejs): 模板引擎   
 	[eventproxy](https://github.com/JacksonTian/eventproxy): 任务或事件基于异步模式的实现   
-	[express](http://expressjs.com): 基本框架   
-	[express-validator](https://github.com/ctavan/express-validator): express的验证插件   
+	[express](http://expressjs.com): 基本框架
 	[generic-pool](https://github.com/coopernurse/node-pool): Nodejs的通用资源池中间件   
 	[gzippo](https://github.com/tomgco/gzippo): express的压缩静态文件的中间件   
 	[http-proxy](https://github.com/nodejitsu/node-http-proxy):	Nodejs的一个全功能的HTTP代理中间件   
@@ -38,10 +37,10 @@
 	[supervisor](https://github.com/isaacs/node-supervisor): 监听文件改动，自动重启服务   
 	[uglify-js](): JavaScript文件压缩工具   
 	[validator](https://github.com/chriso/node-validator): Nodejs验证框架   
-	[websocket-server](http://github.com/miksago/node-websocket-server): websocket服务   
-	[xss](): 防止xss攻击的组件   
+	[xss](): 防止xss攻击的组件
 	[yaml-config](): 基于NODE_ENV来管理你的node.js应用程序的配置，所有的配置都定义在yaml中   
-	[---]():xss   
+	[---]():xss
+	[websocket-server](http://github.com/miksago/node-websocket-server): websocket服务
 	[memcached](https://github.com/3rd-Eden/node-memcached): Nodejs的Memcached客户端    
 	[mime](https://github.com/broofa/node-mime): 一个用于处理MIME类型的超级简单的实用工具库    
 	[jqtpl](https://github.com/kof/node-jqtpl): jQuery的模板引擎   
