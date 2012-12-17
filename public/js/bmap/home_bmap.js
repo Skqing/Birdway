@@ -4,12 +4,14 @@
  * Date: 12-7-29 下午2:40
  * 处理百度地图
  */
+
+var OVERLAYS = {};
 //加载百度地图
-//var map = null;
+var map = null;
 function initmap() {
   document.body.style.backgroundImage = '';
-//  if(map === null){
-  var map = new BMap.Map('mapdiv_id');
+//  if(map == null || map == undefined || map == 'undefined'){
+    map = new BMap.Map('mapdiv_id');
 //  }
   var point = new BMap.Point(116.404, 39.915);
   //属性设置
@@ -31,7 +33,7 @@ function initmap() {
       var cityName = result.name;
       map.setCenter(cityName);
       map.setCurrentCity(cityName);  // 仅当设置城市信息时，MapTypeControl的切换功能才能可用
-      alert(cityName);
+//      alert(cityName);
   }
   var myCity = new BMap.LocalCity();
   myCity.get(myFun);

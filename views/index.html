@@ -9,12 +9,15 @@
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- 请注意JS加载顺序 -->
     <script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+    <script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
+    <script src="/js/bmap/custom/testlab.js" type="text/javascript"></script>
     <script src="/js/bmap/lib/MapWrapper.min.js" type="text/javascript"></script>
     <script src="/lib/headjs/head.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         head.js(
 //                {baiduapi: "http://api.map.baidu.com/api?v=1.4"},
                 {baidumap: "/js/bmap/home_bmap.js"},
+                {kissy: "/lib/kissy/kissy-min.js"},
                 {jquery: "/lib/jquery/jquery-1.7.2.min.js"},
                 {artDialog: "/lib/artDialog/artDialog.min.js"},
                 {artDplugins: "/lib/artDialog/artDialog.plugins.min.js"},
@@ -40,7 +43,7 @@
         //            initmap();
         //        });
         head.ready("baidumap", function(){
-//            initmap();
+            initmap();
         });
 
     </script>
@@ -64,8 +67,25 @@
 
         var point = null;
         var marker = null;
-        socket.on('public_points', function(data){
-            console.log('public_points:'+data);
+        socket.on('public_points', function(datastr){
+            console.log('public_points:'+datastr);
+            var data = KISSY.JSON.parse(datastr);
+            var id = data.id;
+            var gpspoint = KISSY.JSON.parse(data.point);
+            var point = new BMap.Point(gpspoint.lng, gpspoint.lat);
+            var overlay = OVERLAYS[id];
+            if(overlay == undefined || overlay == 'undefined'){
+                BMap.Convertor.translate(point, 0, function(bpoint){
+                    var myCompOverlay = new CustomOverlay(id, bpoint, "测点ID:"+id);
+                    map.addOverlay(myCompOverlay);
+                    OVERLAYS[id] = myCompOverlay;
+                });
+            }else{
+                BMap.Convertor.translate(point, 0, function(bpoint){
+                    overlay.move(bpoint);
+                });
+            }
+
 //            var mkrs = map.getOverlays();
 //            for (var i=1; i<mkrs.length; i++){
 //
