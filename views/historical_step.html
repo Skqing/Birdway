@@ -35,26 +35,26 @@
                 var area_v = $("#area_id")[0].value;
 
                 KISSY.io.post("/business/historicalstep/searchstep",
-                        {
-                            begindate: begindate_v,
-                            enddate: enddate_v,
-                            province: province_v,
-                            city: city_v,
-                            area: area_v
-                        },
-                        function(data){
-                            //把数据显示到地图上
-                            //处理数据为空的情况
-                            if(((data instanceof Object) && data.status == 'failed') ||
-                                    (data instanceof Array) && data.length == 0) {
-                                alert("未查询到任何数据！");
-                            }else if((data instanceof Array) && data.length >0){
-                                var gpoints = [];
+                    {
+                        begindate: begindate_v,
+                        enddate: enddate_v,
+                        province: province_v,
+                        city: city_v,
+                        area: area_v
+                    },
+                    function(data){
+                        //把数据显示到地图上
+                        //处理数据为空的情况
+                        if(((data instanceof Object) && data.status == 'failed') ||
+                                (data instanceof Array) && data.length == 0) {
+                            alert("未查询到任何数据！");
+                        }else if((data instanceof Array) && data.length >0){
+                            var gpoints = [];
 
-                            }else{
-                                alert("未知错误！");
-                            }
-                        },"json");
+                        }else{
+                            alert("未知错误！");
+                        }
+                    },"json");
             });
 
         });

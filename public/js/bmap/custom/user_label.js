@@ -12,10 +12,11 @@ function UserLabel(user, center, length, color, level){
   this._center = center;
   this._length = length;
   this._color = color;
+//  this._title =
 
-  this.lat = user.lat;
-  this.lon = user.lon;
-  this.image = user.img;
+  this._lat = user.lat;
+  this._lng = user.lng;
+  this._image = user.img;
 
   this._level = level;
 };
@@ -74,9 +75,16 @@ UserLabel.prototype.toggle = function(){
   }
 };
 
-// 移动到下一个坐标点
-UserLabel.prototype.moveNextPoint = function(lat, lng){
+// 给一个坐标数组和一个间隔事件，让标签自动移动
+UserLabel.prototype.moves = function(points, time){
 
+}
+// 移动到下一个坐标点
+UserLabel.prototype.move = function(point){
+  var map = this._map;
+  var nextpixel = map.pointToOverlayPixel(point);
+  this._div.style.left = nextpixel.x - parseInt(this._arrow.style.left) + "px";
+  this._div.style.top  = nextpixel.y - 30 + "px";
 };
 
 // 继承API的BMap.Overlay

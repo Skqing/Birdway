@@ -11,6 +11,10 @@ var User = models.User;
 var check = require('validator').check,
   sanitize = require('validator').sanitize;
 
+
+
+
+
 /**
  * 坐标上传
  * sensordate 的报文格式：{apiver:xxx;userid:xxx;经度:xxx;纬度:xxx;海拔:xxx;x:xxx;y:xxx;z:xxx;采集

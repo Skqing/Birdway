@@ -34,6 +34,9 @@ function bootRouterServer(server) {
   server.get('/system/verifycode', system.verifyCode);
 
 
+
+
+
 //    server.get('/gps/:uin/:lo/:la/:el', gpsserver.gps);
 
 

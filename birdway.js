@@ -1,8 +1,8 @@
 /**
  * Author: DolphinBoy
  * Email: longxinanlan@msn.cn
- * Date: 12-6-10
- * Time: 14:21
+ * Date: 12-7-10
+ * Time: 10:21
  * 主程序入口
  * 注意加载的顺序，不能随便更改
  * 加载配置文件、定义全局变量，初始化控制器，自定义错误处理
@@ -18,13 +18,15 @@ global.STATIC = {
 
 //--------模块引入(系统模块)--------
 global.Module = {
-  sio : require('socket.io'),
   fs : require('fs'),
   path : require('path'),
   url : require('url'),
   util : require('util'),
   qs : require('querystring'),
-  cp : require('child_process')
+  cp : require('child_process'),
+  http : require('http'),
+
+  sio : require('socket.io')
   //gzippo : require('gzippo')  //压缩静态文件
 //    parseCookie : require('connect').utils.parseCookie,
 //    MemoryStore : require('connect/middleware/session/memory')
@@ -43,7 +45,6 @@ global.RESULT = {
 };
 //==================创建服务器==================
 var express = require('express');
-
 //gzippo = require('gzippo'),
 //    sios  = require('socket.io-sessions'),
 
@@ -51,10 +52,14 @@ var express = require('express');
 //    parseCookie = require('connect').utils.parseCookie,
 //    MemoryStore = require('connect/lib/middleware/session/memory');
 
-
 //var server = module.exports = express.createServer();
-var server = module.exports = express();
+//var server = module.exports = express();
+var server = express();
+//创建server之前是否需要调用服务配置方法呢？
+//var httpserver = module.exports = global.Module.http.createServer(server);
+var httpserver = global.Module.http.createServer(server);
 
+var io = global.Module.sio.listen(httpserver);
 //==================加载配置文件==================
 //var yaml = require('yaml-config');
 //global.requestsinaip = yaml.readConfig('config/serverconfig.yaml');
@@ -74,14 +79,12 @@ require('./config').boot(server, express);
 
 
 // 模块中间路由
-global.Middle = require('./middle');
+global.Middle = require('./middle');  //这一行代码必须要放在服务器配置函数之后，路由函数之前
 
 
 // 配置路由
 require('./router').boot(server);
 
-// 配置websocket
-require('./websocket').boot(server);
 
 //server.get('/', function(req, res){
 //    req.redirect("./static/index.html");
@@ -94,7 +97,10 @@ require('./websocket').boot(server);
 //错误处理
 //require('./error').boot(server, express);
 
-server.listen(8088, function(){  //这地方可以指定监听的IP吧
+httpserver.listen(8088, function(){  //这地方可以指定监听的IP吧
 //  console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);
   console.log("Express server listening on port 8088");
 });
+
+// 配置websocket
+require('./websocket').boot(io);

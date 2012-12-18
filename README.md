@@ -4,27 +4,48 @@
 ## 介绍
 **Birdway.org**是基于[Node.js](http://nodejs.org)的定位系统，地图暂时采用百度的地图服务，将来有可能整合Google的地图服务
 
-## 模块
-``
-	[cluster](https://github.com/LearnBoost/cluster):Nodejs的多核服务器的管理  
-	[connect-mongo](https://github.com/kcbanner/connect-mongo):MongoDB的会话存储连接  
-	[connect-redis](https://github.com/visionmedia/connect-redis):Redis的会话存储连接  
-	[debug](https://github.com/visionmedia/debug):Nodejs和浏览器的库和应用程序的调试工具  
-	[ejs](https://github.com/visionmedia/ejs):模板引擎  
-	[eventproxy](https://github.com/JacksonTian/eventproxy):任务或事件基于异步模式的实现  
-	[express](http://expressjs.com/):基本框架  
-	[express-validator](https://github.com/ctavan/express-validator):express的验证插件  
-	[formidable](https://github.com/felixge/node-formidable):Nodejs的表单解析和文件上传中间件  
-	[generic-pool](https://github.com/coopernurse/node-pool):Nodejs的通用资源池中间件  
-	[gzippo](https://github.com/tomgco/gzippo):express的压缩静态文件的中间件  
-	[http-proxy](https://github.com/nodejitsu/node-http-proxy):	Nodejs的一个全功能的HTTP代理中间件  
-	[jade](https://github.com/visionmedia/jade):坚固耐用，美观大方，功能丰富的模板引擎  
-	[jqtpl](https://github.com/kof/node-jqtpl):jQuery的模板引擎  
-	[memcached](https://github.com/3rd-Eden/node-memcached):Nodejs的Memcached客户端  
-	[mime](https://github.com/broofa/node-mime):一个用于处理MIME类型的超级简单的实用工具库  
-	[]():
-	[Nodemailer](https://github.com/andris9/Nodemailer):邮件发送模块  
-``
+## 模块 
+''   
+	[async](https://github.com/caolan/async): 同步工具   
+	[cluster](https://github.com/LearnBoost/cluster): Nodejs的多核服务器的管理   
+	[connect-mongo](https://github.com/kcbanner/connect-mongo): MongoDB的session存储驱动    
+	[connect-redis](https://github.com/visionmedia/connect-redis): Redis的session存储驱动  
+	[ejs](https://github.com/visionmedia/ejs): 模板引擎   
+	[eventproxy](https://github.com/JacksonTian/eventproxy): 任务或事件基于异步模式的实现   
+	[express](http://expressjs.com): 基本框架
+	[generic-pool](https://github.com/coopernurse/node-pool): Nodejs的通用资源池中间件   
+	[gzippo](https://github.com/tomgco/gzippo): express的压缩静态文件的中间件   
+	[http-proxy](https://github.com/nodejitsu/node-http-proxy):	Nodejs的一个全功能的HTTP代理中间件   
+	[Nodemailer](https://github.com/andris9/Nodemailer): 邮件发送模块   
+	[iconv-lite](https://github.com/ashtuchkin/iconv-lite): 文件格式转换       
+	[imagemagick](): 图片处理工具   
+	[mocha](): 函数测试工具   
+	[moment](http://momentjs.com): 时间处理模块   
+	[mongoose](https://github.com/learnboost/mongoose): MongoDB模型驱动    
+	[mysql](https://github.com/felixge/node-mysql): mysql驱动   
+	[nconf](https://github.com/flatiron/nconf): 配置文件处理类   
+	[nib](): css代码混淆   
+	[node-dev](https://github.com/fgnass/node-dev): 调试工具，监听文件改动，自动重启服务   
+	[node-inspector](https://github.com/dannycoates/node-inspector): 调试工具   
+	[nodemailer](https://github.com/andris9/nodemailer): 邮件处理模块  
+	[node-uuid](https://github.com/broofa/node-uuid): UUID生成工具   
+	[redis](): redis驱动   
+	[request](http://github.com/mikeal/request): HTTP请求组件   
+	[socket.io](http://socket.io): 像websocket一样实时的应用程序API   
+	[socket.io-client](https://github.com/LearnBoost/socket.io-client): Socket.IO的客户端，支持Nodejs和浏览器   
+	[socket.io-sessions](http://github.com/aviddiviner/Socket.IO-sessions): websocket的session存储工具      
+	[supervisor](https://github.com/isaacs/node-supervisor): 监听文件改动，自动重启服务   
+	[uglify-js](): JavaScript文件压缩工具   
+	[validator](https://github.com/chriso/node-validator): Nodejs验证框架   
+	[xss](): 防止xss攻击的组件
+	[yaml-config](): 基于NODE_ENV来管理你的node.js应用程序的配置，所有的配置都定义在yaml中   
+	[---]():xss
+	[websocket-server](http://github.com/miksago/node-websocket-server): websocket服务
+	[memcached](https://github.com/3rd-Eden/node-memcached): Nodejs的Memcached客户端    
+	[mime](https://github.com/broofa/node-mime): 一个用于处理MIME类型的超级简单的实用工具库    
+	[jqtpl](https://github.com/kof/node-jqtpl): jQuery的模板引擎   
+	[jade](https://github.com/visionmedia/jade): 坚固耐用，美观大方，功能丰富的模板引擎   
+''   
 ## 插件
 ``
     jQuery-1.7.2  
@@ -42,10 +63,10 @@ acll.json：行政中心经纬度(Administrative center latitude and longitude) 
 Dolphin，屌丝JAVA程序员，致力于B/S开发，对PHP，javascript和前端开发一样有兴趣。
 从2012年4月接触Node便对她产生了浓厚的兴趣，并且开始学校这种让OOP程序员看起来纠结，无从着手的语言，
 但是Node给我个人带来的收获还是很大的她让我接触到了另一种不同的编程思想，她简洁，高效，迷人，所以有了这个**[Birdway](http://birdway.org)**，
-希望Node大虾们多多指点，希望更多的开发者加入Node，也希望NodeJS能够发展的更完美。
-**联系方式**
-邮箱={live:longxinanlan@msn.cn, gmail:dolphinboyo@gmail.com}
-QQ:569141948(非诚勿扰)
+希望Node大虾们多多指点，希望更多的开发者加入Node，也希望NodeJS能够发展的更完美。   
+#### 联系方式   
+邮箱={gmail:dolphinboyo@gmail.com, live:longxinanlan@msn.cn}   
+QQ:569141948(非诚勿扰)   
 个人主页:[DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
 
 ## 版本命名规范
