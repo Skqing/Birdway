@@ -52,7 +52,7 @@ exports.login = function(req, res, next){
       return res.render('security/login', { loginerror: '信息不完整。' });
     }
 
-    User.findOne({ 'loginname': username }, function(err, user) {
+    User.findOne({ 'loginname': username }, function(err, user){  //这里还要支持邮箱登录呢！
       if (err) return next(err);
       if (!user) {
           return res.render('security/login', { loginerror:'这个用户不存在。' });
