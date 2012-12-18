@@ -7,18 +7,16 @@
  */
 
 // 定义自定义覆盖物的构造函数
-function UserLabel(user, center, length, color, level){
+function UserLabel(point, user, center){
   this._id = user._id;
-  this._center = center;
-  this._length = length;
-  this._color = color;
-//  this._title =
+  this._image = user.avatar;
+  this._title = user.nickname
 
-  this._lat = user.lat;
-  this._lng = user.lng;
-  this._image = user.img;
+  this._point = point;
 
-  this._level = level;
+  this._size = 10;
+  this._level = 5;
+  this._createtime = new Date();
 };
 
 // 实现初始化方法
@@ -27,11 +25,12 @@ UserLabel.prototype.initialize = function(map){
   this._map = map;
   // 创建div元素，作为自定义覆盖物的容器
   var div = document.createElement("div");
+  div.style.zIndex = BMap.Overlay.getZIndex(this._point.lat);
   div.style.position = "absolute";
   // 可以根据参数设置元素外观
-  div.style.width = this._length + "px";
-  div.style.height = this._length + "px";
-  div.style.background = this._color;
+  div.style.width = this._size + "px";
+  div.style.height = this._size + "px";
+  div.style.backgroundImage = this._image;
   // 将div添加到覆盖物容器中
   map.getPanes().markerPane.appendChild(div);
   // 保存div实例
@@ -44,9 +43,9 @@ UserLabel.prototype.initialize = function(map){
 // 实现绘制方法
 UserLabel.prototype.draw = function(){
 // 根据地理坐标转换为像素坐标，并设置给容器
-  var position = this._map.pointToOverlayPixel(this._center);
-  this._div.style.left = position.x - this._length / 2 + "px";
-  this._div.style.top = position.y - this._length / 2 + "px";
+  var position = this._map.pointToOverlayPixel(this._point);
+  this._div.style.left = position.x - this._size / 2 + "px";
+  this._div.style.top = position.y - this._size / 2 + "px";
 };
 
 // 实现显示方法
@@ -63,18 +62,6 @@ UserLabel.prototype.hide = function(){
   }
 };
 
-// 添加自定义方法
-UserLabel.prototype.toggle = function(){
-  if (this._div){
-    if (this._div.style.display == ""){
-      this.hide();
-    }
-    else {
-      this.show();
-    }
-  }
-};
-
 // 给一个坐标数组和一个间隔事件，让标签自动移动
 UserLabel.prototype.moves = function(points, time){
 
@@ -83,7 +70,7 @@ UserLabel.prototype.moves = function(points, time){
 UserLabel.prototype.move = function(point){
   var map = this._map;
   var nextpixel = map.pointToOverlayPixel(point);
-  this._div.style.left = nextpixel.x - parseInt(this._arrow.style.left) + "px";
+  this._div.style.left = nextpixel.x - parseInt(this._div.style.left) + "px";
   this._div.style.top  = nextpixel.y - 30 + "px";
 };
 

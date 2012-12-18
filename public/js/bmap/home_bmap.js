@@ -5,7 +5,6 @@
  * 处理百度地图
  */
 
-var OVERLAYS = {};
 //加载百度地图
 var map = null;
 function initmap() {
