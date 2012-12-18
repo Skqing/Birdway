@@ -2,10 +2,10 @@
 [Birdway.org](http://birdway.org)
 
 ## 介绍
-**Birdway.org**是基于[Node.js](http://nodejs.org)的定位系统，地图暂时采用百度的地图服务，将来有可能整合Google的地图服务
+**Birdway.org**是基于[Node.js](http://nodejs.org)的定位系统，地图暂时采用百度的地图服务，将来有可能整合的地图服务
 
 ## 模块 
-''   
+> 
 	[async](https://github.com/caolan/async): 同步工具   
 	[cluster](https://github.com/LearnBoost/cluster): Nodejs的多核服务器的管理   
 	[connect-mongo](https://github.com/kcbanner/connect-mongo): MongoDB的session存储驱动    
@@ -45,12 +45,12 @@
 	[mime](https://github.com/broofa/node-mime): 一个用于处理MIME类型的超级简单的实用工具库    
 	[jqtpl](https://github.com/kof/node-jqtpl): jQuery的模板引擎   
 	[jade](https://github.com/visionmedia/jade): 坚固耐用，美观大方，功能丰富的模板引擎   
-''   
+   
 ## 插件
-``
-    jQuery-1.7.2  
+> 
+    jQuery-1.7.2   
 	artDialog-4.1.2
-``
+
 ## 数据
 acll.json：行政中心经纬度(Administrative center latitude and longitude) 数据来源：[阿里云](http://ditu.aliyun.com/jsdoc/map_api_city_lola.html)
 
@@ -65,9 +65,9 @@ Dolphin，屌丝JAVA程序员，致力于B/S开发，对PHP，javascript和前�
 但是Node给我个人带来的收获还是很大的她让我接触到了另一种不同的编程思想，她简洁，高效，迷人，所以有了这个**[Birdway](http://birdway.org)**，
 希望Node大虾们多多指点，希望更多的开发者加入Node，也希望NodeJS能够发展的更完美。   
 #### 联系方式   
-邮箱={gmail:dolphinboyo@gmail.com, live:longxinanlan@msn.cn}   
-QQ:569141948(非诚勿扰)   
-个人主页:[DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
+Email = {gmail:dolphinboyo@gmail.com, live:longxinanlan@msn.cn}   
+QQ: 569141948(非诚勿扰)   
+个人主页: [DolphinBoy](http://dolphinboy.me)(可能您访问的时候还没搭建好呢！)
 
 ## 版本命名规范
 **x.y.z**
