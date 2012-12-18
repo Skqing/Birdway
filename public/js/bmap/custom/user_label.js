@@ -49,7 +49,7 @@ UserLabel.prototype.draw = function(){
 };
 
 // 实现显示方法
-SquareOverlay.prototype.show = function(){
+UserLabel.prototype.show = function(){
   if (this._div){
     this._div.style.display = "";
   }
@@ -75,7 +75,7 @@ UserLabel.prototype.toggle = function(){
 };
 
 // 移动到下一个坐标点
-UserLabel.prototype.moveNextPoint = function(lat, lon){
+UserLabel.prototype.moveNextPoint = function(lat, lng){
 
 };
 
