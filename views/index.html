@@ -66,21 +66,26 @@
             console.log(data);
         });
         socket.on('public_points', function(datastr){
+            //格式为：{"user":{"uid":"43mk54k5kl643l", "nickname":"Zhan san", "avatar":"http://127.0.0.1/user/image/3223.png"},
+            // "point":{"lng":123.21, "lat":21.54}, "orgin": {"x":32, "y":34, "z":54}};
             console.log('public_points:'+datastr);
             var data = KISSY.JSON.parse(datastr);
-            var id = data.id;
-            var gpspoint = KISSY.JSON.parse(data.point);
-            var point = new BMap.Point(gpspoint.lng, gpspoint.lat);
-            var overlay = OVERLAYS[id];
+            var user = data.user;
+            var point = data.point;
+            var orgin = data.orgin;
+
+//            var gpspoint = KISSY.JSON.parse(data.point);
+            var bpoint = new BMap.Point(point.lng, point.lat);
+            var overlay = OVERLAYS[user.uid];
             if(overlay == undefined){
-                BMap.Convertor.translate(point, 0, function(bpoint){
-                    var myCompOverlay = new CustomOverlay(id, bpoint, "测点ID:"+id);
+                BMap.Convertor.translate(bpoint, 0, function(mpoint){
+                    var myCompOverlay = new CustomOverlay(user, mpoint);
                     map.addOverlay(myCompOverlay);
                     OVERLAYS[id] = myCompOverlay;
                 });
             }else{
-                BMap.Convertor.translate(point, 0, function(bpoint){
-                    overlay.move(bpoint);
+                BMap.Convertor.translate(bpoint, 0, function(mpoint){
+                    overlay.move(mpoint);
                 });
             }
         });

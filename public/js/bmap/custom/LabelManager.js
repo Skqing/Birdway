@@ -59,7 +59,6 @@ var BMapLib = window.BMapLib = BMapLib || {};
     this._arrCache = [];
   }
 
-
 //  BMapLib.LabelManager = function(id, msg, nextpoint, line, coordType){
 //    this._id = id;
 //    this._msg = msg;
@@ -106,6 +105,22 @@ var BMapLib = window.BMapLib = BMapLib || {};
         me._delayRequest();
       }, 50);
     }
+
+//    return userlabel;
+  }
+  LabelManager.prototype.adds = function(user, point, orgin){
+
+//    return userlabels;
   }
 
+  LabelManager.prototype.move = function(user, point, orgin){
+
+  }
+  LabelManager.prototype.moves = function(user, point, orgin){
+
+  }
+
+  LabelManager.prototype.remove = function(id){
+
+  }
 })();//闭包结束

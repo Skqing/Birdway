@@ -7,8 +7,8 @@
  */
 
 // 定义自定义覆盖物的构造函数
-function UserLabel(point, user, center){
-  this._id = user._id;
+function UserLabel(user, point){
+  this._id = user.uid;
   this._image = user.avatar;
   this._title = user.nickname
 
