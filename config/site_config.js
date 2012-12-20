@@ -49,6 +49,10 @@ exports.siteconfig = {
   cookie_id : 'birdway_sid',  //cookie标识
   user_session_key : 'user_session_key',  //用户session标识
   loginrefer_session_key: 'loginrefer_session_key',
+
+
+  redirect_uri : 'index',  //跳转地址,用户登录后转到之前请求的地址
+
   // 话题列表显示的话题数量
   list_topic_count: 20,
 

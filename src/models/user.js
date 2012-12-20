@@ -14,7 +14,7 @@ var UserSchema = new Schema({
   profile: { type: String },
   weibo: { type: String },
   avatar: { type: String },  //在avatar上提供的个人头像地址
-  profile_image_url: {type: String, default: '/images/user_icon&60.png'},  //这个地方要处理
+  profile_image_url: {type: String},
 
   score: { type: Number, default: 0 },
   topic_count: { type: Number, default: 0 },

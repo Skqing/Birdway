@@ -14,6 +14,7 @@ var travelplan = require('./src/action/business/travelplan');
 var historicalstep = require('./src/action/business/historicalstep');
 
 
+var userinfo = require('./src/action/business/usercenter/userinfo');
 var datamanag = require('./src/action/business/usercenter/datamanag');
 
 var sensor = require('./src/action/network/sensor_action');
@@ -64,6 +65,8 @@ function bootRouterServer(server) {
   server.get('/mobile/upload', sensor.uploadByGet);
   server.get('/mobile/userid', sensor.getUserId);
 
+  //*****用户中心*****
+  server.get('/business/usercenter/userinfo_base', userinfo.baseinfo);  //用户信息
 
 
   server.get('/business/usercenter/datamanag_import', datamanag.import);
