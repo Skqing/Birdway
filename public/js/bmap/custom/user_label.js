@@ -10,14 +10,16 @@
 function UserLabel(user, point){
   this._id = user.uid;
   this._image = user.avatar;
-  this._title = user.nickname
+  this._title = user.nickname;
 
   this._point = point;
 
-  this._size = 10;
+  this._size = 20;
   this._level = 5;
   this._createtime = new Date();
 };
+// 继承API的BMap.Overlay
+UserLabel.prototype = new BMap.Overlay();
 
 // 实现初始化方法
 UserLabel.prototype.initialize = function(map){
@@ -30,9 +32,12 @@ UserLabel.prototype.initialize = function(map){
   // 可以根据参数设置元素外观
   div.style.width = this._size + "px";
   div.style.height = this._size + "px";
-  div.style.backgroundImage = this._image;
+  div.style.background = this._image;  //这里要得到的是绝对路径
+  div.style.backgroundRepeat = "no-repeat";
+//  div.style.backgroundColor = "#EE5D5B";
+  div.style.border = "1px solid #b82e21";
   // 将div添加到覆盖物容器中
-  map.getPanes().markerPane.appendChild(div);
+  map.getPanes().labelPane.appendChild(div);
   // 保存div实例
   this._div = div;
   // 需要将div元素作为方法的返回值，当调用该覆盖物的show、
@@ -74,5 +79,7 @@ UserLabel.prototype.move = function(point){
   this._div.style.top  = nextpixel.y - 30 + "px";
 };
 
-// 继承API的BMap.Overlay
-UserLabel.prototype = new BMap.Overlay();
+//拖动地图时可能需要重绘或者让标签跟随地图的移动而移动
+UserLabel.prototype.redraw = function(){
+
+}

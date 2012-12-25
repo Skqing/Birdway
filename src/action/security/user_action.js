@@ -48,21 +48,21 @@ exports.login = function(req, res, next){
     var password = sanitize(req.body.password).trim();
     password = sanitize(password).xss();
 
-    if (!username || !password) {
-      return res.render('security/login', { loginerror: '信息不完整。' });
+    if(!username || !password){
+      return res.render('security/login', { loginerror: '信息不完整。'});
     }
 
     User.findOne({ 'loginname': username }, function(err, user){  //这里还要支持邮箱登录呢！
-      if (err) return next(err);
-      if (!user) {
-          return res.render('security/login', { loginerror:'这个用户不存在。' });
+      if(err) return next(err);
+      if(!user){
+          return res.render('security/login', { loginerror:'这个用户不存在。'});
       }
       password = global.Middle.utils.security.md5(password);
-      if (password !== user.password) {
-          return res.render('security/login', { loginerror:'密码错误。' });
+      if(password !== user.password){
+          return res.render('security/login', { loginerror:'密码错误。'});
       }
-      if (!user.active) {
-          return res.render('security/login', { loginerror:'此帐号还没有被激活。' });
+      if(!user.active){
+          return res.render('security/login', { loginerror:'此帐号还没有被激活。'});
       }
       // store session cookie
 //        gen_session(user, res);
@@ -105,7 +105,7 @@ exports.login = function(req, res, next){
 //        res.send({'state': 'aok'});
 //        res.end();
 //      }
-
+//      var redirect_uri = req.session.redirect_uri;
       return res.render('index', {user: user});
     });
   }
@@ -124,7 +124,7 @@ exports.regist = function(req, res, next){
         return;
     }
     if(method === 'post'){
-        var name = sanitize(req.body.username).trim();
+        var name = sanitize(req.body.username).trim();  //##如果req.body.xxx为空，这个方法就会报错，需解决
         name = sanitize(name).xss();
         name = name.toLowerCase();
 
@@ -135,42 +135,42 @@ exports.regist = function(req, res, next){
         email = email.toLowerCase();
         email = sanitize(email).xss();
 
-        var re_pass = sanitize(req.body.confirmpassword).trim();
+        var re_pass = sanitize(req.body.repassword).trim();
         re_pass = sanitize(re_pass).xss();
 
         if(name == '' || pass =='' || re_pass == '' || email ==''){
-            res.render('security/regist', {singuperror: '信息不完整。', name: name, email: email});
+            res.render('security/regist', {msg: '信息不完整。', name: name, email: email});
             return;
         }
 
         if(name.length < 5){
-            res.render('security/regist', {singuperror:'用户名至少需要5个字符。', name: name, email: email});
+            res.render('security/regist', {msg:'用户名至少需要5个字符。', name: name, email: email});
             return;
         }
 
         try{
             check(name, '用户名只能使用0-9，a-z，A-Z。').isAlphanumeric();
         }catch(e){
-            res.render('security/regist', {singuperror: e.message, name: name, email: email});
+            res.render('security/regist', {msg: e.message, name: name, email: email});
             return;
         }
 
         if(pass !== re_pass){
-            res.render('security/regist', {singuperror: '两次密码输入不一致。', name: name, email: email});
+            res.render('security/regist', {msg: '两次密码输入不一致。', name: name, email: email});
             return;
         }
 
         try{
             check(email, '不正确的电子邮箱。').isEmail();
         }catch(e){
-            res.render('security/regist', {singuperror:e.message, name:name, email:email});
+            res.render('security/regist', {msg:e.message, name:name, email:email});
             return;
         }
 
-        User.find({'$or':[{'loginname':name}, {'email':email}]},function(err, users){
+        User.find({'$or':[{'username':name}, {'email':email}]},function(err, users){
             if(err) return next(err);
             if(users.length > 0){
-                res.render('security/regist', {singuperror:'用户名或邮箱已被使用。', name:name, email:email});
+                res.render('security/regist', {msg:'用户名或邮箱已被使用。', name:name, email:email});
                 return;
             }
 
@@ -180,16 +180,16 @@ exports.regist = function(req, res, next){
 //            var avatar_url = 'http://www.gravatar.com/avatar/' + global.Middle.utils.security.md5(email) + '?size=48';
 
             var user = new User();
-            user.loginname = name;
+            user.username = name;
             user.password = pass;
             user.email = email;
 //            user.avatar = avatar_url;
             user.active = true;  //产品模式为false
             user.save(function(err){
                 if(err) return next(err);
-                    global.Middle.service.mail.send_active_mail(email, global.Middle.utils.security.md5(global.siteconfig.name+name+email), name, email, function(err, success){
+                    global.Middle.service.mail_work.send_active_mail(email, global.Middle.utils.security.md5(global.siteconfig.name+name+email), name, email, function(err, success){
                     if(success){
-                        res.render('security/regist_aok', {msg:'欢迎加入 ' + global.siteconfig.name + '！我们已给您的注册邮箱发送了一封邮件，请点击您注册邮箱里面的链接来激活您的帐号。', site:global.Middle.utils.transutils.emailorsite(email)});
+                        res.render('security/regist_aok', {msg:'欢迎加入 ' + global.siteconfig.name + '！我们已给您的注册邮箱发送了一封邮件，请点击您注册邮箱里面的链接来激活您的帐号。', email:email, site:global.Middle.utils.transutils.emailorsite(email)});
                         return;
                     }
                 });

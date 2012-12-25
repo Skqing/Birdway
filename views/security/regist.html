@@ -13,11 +13,11 @@
 <div id="maincontext">
     <div id="regist-main">
         <span class="formtitle">用户注册</span>
-        <form id="registForm" action="/security/user_login" method="post">
+        <form id="registForm" action="/security/user_regist" method="post">
             <ol>
                 <li>
                     <label><span class="notespan">*</span>用户名：</label>
-                    <input id="username_id" name="username" type="text">
+                    <input id="nikename_id" name="username" type="text">
                 </li>
                 <li>
                     <label><span class="notespan">*</span>邮箱：</label>
@@ -37,9 +37,11 @@
                     <img id="verifycode_img_id" class="vcimg" src="/images/verifycode_loading.gif" title="点击，换一张">
                 </li>
             </ol>
-            <input id="registbut" type="button" value="注  册" class="btn-submit"><a href="/security/user_login">登录</a>
+            <input id="registbut" type="submit" value="注  册" class="btn-submit"><a href="/security/user_login">登录</a>
         </form>
-        <span id="errortip_id" class="errortip"></span>
+        <% if(locals.msg){ %>
+        <span id="errortip_id" class="msg"><strong><%= msg %></strong></span>
+        <% } %>
     </div>
 </div>
 <span></span>

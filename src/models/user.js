@@ -5,7 +5,9 @@ var ObjectId = Schema.ObjectId;
 var UserSchema = new Schema({
 //  _id: { type: ObjectId, index: true },
   username: { type: String, index: true },
-  nickname: { type: String, required: true, unique: true },
+//  username: { type: String, required: true, unique: true, index: true },
+  nickname: { type: String },
+//  realname: { type: String },  //这个真实姓名应该放在详细资料里面
   password: { type: String },
   email: { type: String, unique: true },
   url: { type: String },
@@ -16,6 +18,7 @@ var UserSchema = new Schema({
   avatar: { type: String },  //在avatar上提供的个人头像地址
   profile_image_url: {type: String},
 
+  /**
   score: { type: Number, default: 0 },
   topic_count: { type: Number, default: 0 },
   reply_count: { type: Number, default: 0 },
@@ -23,7 +26,7 @@ var UserSchema = new Schema({
   following_count: { type: Number, default: 0 },
   collect_tag_count: { type: Number, default: 0 },
   collect_topic_count: { type: Number, default: 0 },
-
+  */
   create_at: { type: Date, default: Date.now },
   create_by: { type: ObjectId, ref: 'User' },
   update_at: { type: Date, default: Date.now },
@@ -33,9 +36,9 @@ var UserSchema = new Schema({
   level: { type: String },
   active: { type: Boolean, default: true },
 
-  receive_reply_mail: {type: Boolean, default: false },
-  receive_at_mail: { type: Boolean, default: false },
-  from_wp: { type: Boolean },
+//  receive_reply_mail: {type: Boolean, default: false },
+//  receive_at_mail: { type: Boolean, default: false },
+//  from_wp: { type: Boolean },
 
   retrieve_time : {type: Number},
   retrieve_key : {type: String}

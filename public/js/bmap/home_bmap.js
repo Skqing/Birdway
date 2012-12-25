@@ -14,7 +14,7 @@ function initmap() {
 //  }
   var point = new BMap.Point(116.404, 39.915);
   //属性设置
-  map.centerAndZoom(point, 13);
+  map.centerAndZoom(point, 10);
   map.enableScrollWheelZoom;  // 启用滚轮放大缩小
   map.enableKeyboard();  // 启用键盘操作
 

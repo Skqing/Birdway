@@ -6,5 +6,78 @@
  * Time: 下午8:43
  * Description: [描述信息]
  */
- 
- 
+
+/**标签样式*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/**样式*/
+.v4body {
+    width: 950px;
+    margin: 52px auto 0;
+    background: url("../images/web/white_repeat_bg_y.png") 0 0 repeat-y;
+    _background: url("../images/web/white_repeat_bg_y.png") 0 0 repeat-y;
+    zoom: 1;
+}
+
+/**左侧样式*/
+.left_context {
+    float: left;
+    clear: none;
+}
+
+.left_title h3 span {
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.left_settings {
+    color: #666;
+}
+
+.left_settings th {
+    text-align: left;
+    width: 110px;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 28px;
+    white-space: nowrap;
+}
+/**右侧样式*/
+
+.right_nav {
+    float: right;
+    width: 150px;
+}
+
+.right_nav h3 {
+    height: 15px;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 6px 15px;
+    margin: 0 0 1px;
+    font-weight: 400;
+}
+
+div.setting_menu{
+    text-align: center;
+    display: block;
+    background-color: #0000ff;
+    font-size: 12px;
+    margin: 1px;
+}
+
+/**公用样式*/
+.notice_red {
+    font-family: "SimSun";
+    color: #ff0000;
+}

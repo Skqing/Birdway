@@ -54,6 +54,21 @@
 ## 数据
 acll.json：行政中心经纬度(Administrative center latitude and longitude) 数据来源：[阿里云](http://ditu.aliyun.com/jsdoc/map_api_city_lola.html)
 
+## 工具
+开发工具：
+> 
+WebStorm  
+Sublime Text 2.0.1
+
+版本控制：
+> 
+Git-1.8.0  
+TortoiseGit-1.7.15.0  
+
+数据库操作：
+> 
+MongoVUE 1.5.3
+
 
 ## 关于pull request
 所有提交都要严格遵循[Node编码规范](https://github.com/windyrobin/iFrame/blob/master/style.md)。
@@ -73,6 +88,11 @@ QQ: 569141948(非诚勿扰)
 **x.y.z**
 y为奇数时表示当前版本为开发版，如：1.5.1、1.7.2；
 y为偶数时表示当前版本为稳定版，如：1.6.3、1.8.2；
+
+
+## 贡献者
+
+
 
 ## License
 ( The LGPL License )

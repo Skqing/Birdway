@@ -4,6 +4,11 @@
     <title></title>
 </head>
 <body>
-
+    <% if(locals.msg){ %>
+    <h3><%= msg %></h3>
+    <% } %>
+    <% if(locals.email && locals.site){ %>
+    <a href="<%= site %>"><%= email %></a>
+    <% } %>
 </body>
 </html>

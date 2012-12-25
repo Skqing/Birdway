@@ -86,7 +86,7 @@ function send_mail(data) {
     if (!data) {
         return;
     }
-    if (global.sitecofig.debug) {
+    if (global.siteconfig.debug) {
         console.log('******************** 在测试环境下，不会真的发送邮件*******************');
         for (var k in data) {
             console.log('%s: %s', k, data[k]);
@@ -100,12 +100,12 @@ function send_mail(data) {
 exports.send_active_mail = function(who, token, name, email, cb) {
     var sender =  global.mailconfig.mail_sender;
     var to = who;
-    var subject = global.sitecofig.name + '社区帐号激活';
+    var subject = global.siteconfig.name + '社区帐号激活';
     var html = '<p>您好：<p/>' +
-        '<p>我们收到您在' + global.sitecofig.name + '社区的注册信息，请点击下面的链接来激活帐户：</p>' +
+        '<p>我们收到您在' + global.siteconfig.name + '社区的注册信息，请点击下面的链接来激活帐户：</p>' +
         '<a href="' + SITE_ROOT_URL + '/active_account?key=' + token + '&name=' + name + '&email=' + email + '">激活链接</a>' +
-        '<p>若您没有在' + global.sitecofig.name + '社区填写过注册信息，说明有人滥用了您的电子邮箱，请删除此邮件，我们对给您造成的打扰感到抱歉。</p>' +
-        '<p>' +global.sitecofig.name +'社区 谨上。</p>';
+        '<p>若您没有在' + global.siteconfig.name + '社区填写过注册信息，说明有人滥用了您的电子邮箱，请删除此邮件，我们对给您造成的打扰感到抱歉。</p>' +
+        '<p>' +global.siteconfig.name +'社区 谨上。</p>';
     var data = {
         sender: sender,
         to: to,
@@ -119,12 +119,12 @@ exports.send_active_mail = function(who, token, name, email, cb) {
 exports.send_reset_pass_mail = function(who, token, name, cb) {
     var sender = global.mailconfig.mail_sender;
     var to = who;
-    var subject = global.sitecofig.name + '社区密码重置';
+    var subject = global.siteconfig.name + '社区密码重置';
     var html = '<p>您好：<p/>' +
-        '<p>我们收到您在' + global.sitecofig.name + '社区重置密码的请求，请在24小时内单击下面的链接来重置密码：</p>' +
+        '<p>我们收到您在' + global.siteconfig.name + '社区重置密码的请求，请在24小时内单击下面的链接来重置密码：</p>' +
         '<a href="' + SITE_ROOT_URL + '/reset_pass?key=' + token + '&name=' + name + '">重置密码链接</a>' +
-        '<p>若您没有在' + global.sitecofig.name + '社区填写过注册信息，说明有人滥用了您的电子邮箱，请删除此邮件，我们对给您造成的打扰感到抱歉。</p>' +
-        '<p>' + global.sitecofig.name +'社区 谨上。</p>';
+        '<p>若您没有在' + global.siteconfig.name + '社区填写过注册信息，说明有人滥用了您的电子邮箱，请删除此邮件，我们对给您造成的打扰感到抱歉。</p>' +
+        '<p>' + global.siteconfig.name +'社区 谨上。</p>';
 
     var data = {
         sender: sender,

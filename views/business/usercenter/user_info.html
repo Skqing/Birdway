@@ -1,44 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>账户资料</title>
+    <title>基本信息设置</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/user_info.css" rel="stylesheet" />
 </head>
 <body>
-    <span id="personal_info">个人资料</span>
-    <div id="showme">
-        <div id="my_avatar">
-            <img src="/images/user_icon_60x66.png" title="帅不？">
+    <div class="v4body">
+        <div class="left_context">
+            <div class="left_title">
+                <h3>基本信息
+                    <span class="title_tip">
+                        (&nbsp;<i class="notice_red">*</i>&nbsp;必须填写项&nbsp;)
+                    </span>
+                </h3>
+            </div>
+            <div class="left_settings">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="gray6">登录名：</th>
+                            <td class="font_12" colspan="2">
+                                <em>long****nlan@sina.com</em>
+                                &nbsp;&nbsp;&nbsp;<a href="/settings/password">修改密码</a>
+                            </td>
+                        </tr>
+                        <tr >
+                            <th class="gray6"><em class="error_color">*</em> 昵&nbsp;&nbsp;称：</th>
+                            <td>
+                                <input type="text" class="PY_input" value="龙心安兰" name="nickname" id="nickname"><span class="co_kd2" style="display:none"></span>
+                                <input id="oldnick" type="hidden" value="龙心安兰" name="oldnick">
+                            </td>
+                            <td id="red_nickname">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <span class="show_nikename">用户昵称</span>
-        <a class="show_level" href=""><img class="level" src="" alt=""></a>
-        <div class="user_icon">
-            <a class="show_txweibo" href=""><img class="tx_weibo" src="" alt=""></a>
-            <span class="vline">|</span>
-            <a class="show_xlweibo" href=""><img class="xl_weibo" src="" alt=""></a>
+        <div class="right_nav">
+            <h3>帐号设置</h3>
+            <div id="personal_info" class="setting_menu">个人资料</div>
+            <div id="showme">
+                <div id="my_avatar">
+                    <img src="/images/user_icon_60x66.png" title="帅不？">
+                </div>
+                <span class="show_nikename">用户昵称</span>
+                <a class="show_level" href=""><img class="level" src="" alt=""></a>
+                <div class="user_icon">
+                    <a class="show_txweibo" href=""><img class="tx_weibo" src="" alt=""></a>
+                    <span class="vline">|</span>
+                    <a class="show_xlweibo" href=""><img class="xl_weibo" src="" alt=""></a>
+                </div>
+                <a class="show_sex" href="" title=""><img class="sex" src="" alt=""></a><!--用图片或者生物性别表示-->
+                <a class="show_sign" href=""></a>
+                <a class="show_liveaddr" href="" title="">居住地</a>
+                <a class="show_edu" href="" title="">教育信息</a>
+                <a class="show_userhome" href="">用户主页</a>
+                <span class="shwo_introduce" title="">个人介绍</span>
+
+            </div>
+
+            <div id="base">
+
+            </div>
+            <div id="hobbies">
+
+            </div>
+            <div id="contact">
+            </div>
+
+            <div id="alter_avatar" class="setting_menu">修改头像</div>
+            <div id="bound_mobile" class="setting_menu">绑定手机</div>
+            <div id="privacy_settings" class="setting_menu">隐私设置</div>
+            <div id="my_setting" class="setting_menu">个性设置</div>
+            <div id="account_security" class="setting_menu">帐号安全</div>
         </div>
-        <a class="show_sex" href="" title=""><img class="sex" src="" alt=""></a><!--用图片或者生物性别表示-->
-        <a class="show_sign" href=""></a>
-        <a class="show_liveaddr" href="" title="">居住地</a>
-        <a class="show_edu" href="" title="">教育信息</a>
-        <a class="show_userhome" href="">用户主页</a>
-        <span class="shwo_introduce" title="">个人介绍</span>
-
     </div>
-
-    <div id="base">
-
-    </div>
-    <div id="hobbies">
-
-    </div>
-    <div id="contact">
-    </div>
-
-    <span id="alter_avatar">修改头像</span>
-    <span id="bound_mobile">绑定手机</span>
-    <span id="privacy_settings">隐私设置</span>
-    <span id="my_setting">个性设置</span>
-    <span id="account_security">帐号安全</span>
-
 </body>
 </html>

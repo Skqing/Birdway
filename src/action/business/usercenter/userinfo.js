@@ -12,20 +12,20 @@
  * @param res
  * @param next
  */
-exports.baseinfo = function(req, res, next){
+exports.baseinfo = function(req, res, next) {
   var user = req.session.user_session_key;
   if (user == undefined || user === null) {
-    req.session.redirect_uri = 'security/login';
-    return res.render('security/login', { msg: '您还未登录，请先登录！' });
+    req.session.redirect_uri = 'business/usercenter/user_info';
+    return res.render( 'security/login', { msg: '您还未登录，请先登录！' } );
   }
 
   var method = req.method.toLowerCase();
-  if (method === 'get'){
+  if (method === 'get') {
 
 
 
 
 
-    return res.render('business/usercenter/user_info');
+    return res.render('business/usercenter/user_info', {user: user});
   }
 };
