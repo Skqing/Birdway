@@ -24,7 +24,7 @@ exports.baseinfo = function(req, res, next) {
 
 
 
-
+//    res.json({ user: 'tobi' })
 
     return res.render('business/usercenter/user_info', {user: user});
   }

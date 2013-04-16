@@ -34,13 +34,15 @@ function bootConfigServer(server, express) {
   var RedisStore = require('connect-redis')(express);
   var MongoStore = require('connect-mongo')(express);
   var sessionStore = new MongoStore({url:global.dbconfig.url, collection:global.dbconfig.collection});
-
+// all environments
   server.configure(function(){  //中间件的顺序是不能随意改变的
 //  server.set('views', __dirname + '/views');
 //  server.set('view engine', 'jade');
+    server.set('title', 'Birdway');
+
     //设置模版引擎
-    server.engine('.html', require('ejs').__express);   //这两种方法都可以
-//        server.engine('html', require('ejs').renderFile);
+//    server.engine('.html', require('ejs').__express);   //这两种方法都可以
+    server.engine('html', require('ejs').renderFile);
     server.set('views', global.BASEDIR + '/views');
     server.set('view engine', 'html');
 //        server.register('.html', require('ejs'));
@@ -49,9 +51,12 @@ function bootConfigServer(server, express) {
 //  server.set('view cache', true); //上线开启模板缓存
 
 //      server.use(express.logger());
-    server.use(express.bodyParser());  //解析表单数据的中间件
+
 //  server.use(express.bodyParser({uploadDir:'./uploads'}));//上传到指定的临时目录/uploads
+    server.use(express.logger());
+    server.use(express.compress());
     server.use(express.methodOverride());
+    server.use(express.bodyParser());  //解析表单数据的中间件
     server.use(express.cookieParser());
     //server.use(expressValidator);  //验证框架
     server.use(express.session({
@@ -59,6 +64,7 @@ function bootConfigServer(server, express) {
         store: sessionStore }));
     var maxAge = 3600000 * 24 * 30;
     server.use(express.static(global.STATIC.PUBLIC, { maxAge: maxAge }));
+    server.use(express.static(global.BASEDIR + '/doc'));
     server.use(express.favicon());
 //      server.use(express.errorHandler());
 

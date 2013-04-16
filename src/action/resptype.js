@@ -19,13 +19,11 @@ exports.responseType = function(res, arg, brg){
     } else if (arg !== null && brg === null && arg.constructor === Array){
       res.writeHead(200, {'Content-Type': 'application/json'});
       var result = msgFormat(arg);
-      res.write(result);
       console.log("result:"+result);
-      res.end();
+      res.send(result);
     }else if(arg !== null && brg === null && arg.constructor === Object){
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.write(JSON.stringify(arg));
-      res.end();
+      res.send(JSON.stringify(arg));
     }else if(arg !== null && brg !== null && typeof(arg) === 'string' && typeof(brg) === 'boolean'){
       //读取文件并返回（考虑两种情况，本域的文件或者静态文件服务器的文件）
 
